@@ -18,7 +18,7 @@ Below are the SQL queries used in the project, each query is accompanied by its 
 SELECT *
 FROM banking_data;
 ```
-![Your Image Description](images/select_all.jpg)
+![Your Image Description](images/3.1.jpg)
 
 #### 3.2 Examine Borrower and 'Due to IDA' fields for the first five transactions
 ```sql
@@ -26,7 +26,7 @@ SELECT borrower, "Due to IDA"
 FROM banking_data
 LIMIT 5;
 ```
-![Your Image Description](images/limit.jpg)
+![Your Image Description](images/3.2.jpg)
 
 #### 3.3 Examine the Region and 'Due to IDA' fields but alias the latter so it's easier to read
 ```sql
@@ -34,7 +34,7 @@ SELECT region, "Due to IDA" AS due
 FROM banking_data
 LIMIT 20;
 ```
-**Image Placeholder:** ![Your Image Description](images/alias.jpg)
+**Image Placeholder:** ![Your Image Description](images/3.3.jpg)
 
 #### 3.4 Examine all transactions from Nicaragua
 ```sql
@@ -42,28 +42,28 @@ SELECT *
 FROM banking_data
 WHERE country = 'Nicaragua';
 ```
-**Image Placeholder:** ![Your Image Description](images/where.jpg)
+**Image Placeholder:** ![Your Image Description](images/3.4.jpg)
 
 #### 3.5 Calculate the total number of transactions
 ```sql
 SELECT COUNT(*) AS total_transactions
 FROM banking_data;
 ```
-**Image Placeholder:** ![Your Image Description](images/count.jpg)
+**Image Placeholder:** ![Your Image Description](images/3.5.jpg)
 
 #### 3.6 Calculate the total number of transactions per country
 ```sql
 SELECT country, COUNT(*) AS total_transactions
 FROM banking_data GROUP BY "country";
 ```
-**Image Placeholder:** ![Your Image Description](images/transactions.jpg)
+**Image Placeholder:** ![Your Image Description](images/3.6.jpg)
 
 #### 3.7 Find the maximum amount owed to the IDA
 ```sql
 SELECT country, MAX("Due to IDA") AS max_owed
 FROM banking_data;
 ```
-**Image Placeholder:** ![Your Image Description](images/max_min.jpg)
+**Image Placeholder:** ![Your Image Description](images/3.7.jpg)
 
 #### 3.8 Owed to the IDA (Cummulative SUM)
 ```sql
