@@ -21,7 +21,7 @@ LIMIT 5;
 ```
 <img src="images/3.1.JPG?raw=true"/>
 
-#### 3.2 Examine Borrower and 'Due to IDA' fields for the first five transactions
+#### 3.2 Examine Borrower and 'Due to IDA' fields for the first 10 transactions
 ```sql
 SELECT Borrower, Country, "Due to IDA" AS due
 FROM banking_data
