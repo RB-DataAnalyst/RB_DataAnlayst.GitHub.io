@@ -4,13 +4,7 @@
 
 ## This can be a template for an internal project
 
-
-### 1. You can have sections and text.
-
-### 2. You can add any images you'd like.
-<img src="images/dummy_thumbnail.JPG?raw=true"/>
-
-### 3. SQL Queries
+### 1. SQL Queries
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
 #### 3.1 Explore the table by returning all its columns for the first five rows
@@ -25,7 +19,7 @@ LIMIT 5;
 ```sql
 SELECT Borrower, Country, "Due to IDA" AS due
 FROM banking_data
-WHERE due IS NOT NULL
+WHERE due IS NOT NULL AND "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
 ORDER BY due DESC
 LIMIT 10;
 ```
