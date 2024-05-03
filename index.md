@@ -3,6 +3,20 @@
 ---
 
 ## Learn About My Projects
+#### [External Link Project](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
+[<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
+My final write up for Avery Smith's 21 Days To Data project covering New York City crime data. 
+
+---
+
+#### [Tableau Education Project](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+[<img src="images/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+In this case study, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
+1. What schools are struggling with graduation rates the most?
+2. How does class size affect college admissions?
+3. What districts are excelling in early math? 
+
+---
 
 #### [Internal Blog Post Project](/bank)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -17,25 +31,6 @@ For this project, I explored what a good analytics PowerPoint presentation shoul
 #### [External Link Project](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
 [<img src="images/21 Days To Data Challenge What I've Learned Cover.png?raw=true"/>](https://www.linkedin.com/pulse/what-i-learned-21-days-data-avery-smith)
 My final write up for Avery Smith's 21 Days To Data project covering New York City crime data. 
-
-
----
-#### [Tableau Education Project](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
-[<img src="images/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
-In this case study, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
-1. What schools are struggling with graduation rates the most?
-2. How does class size affect college admissions?
-3. What districts are excelling in early math? 
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
