@@ -18,14 +18,14 @@ print('this is the python code I used to solve this problem')
 ### 3. SQL Queries
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
-#### 3.1 Select All
+#### 3.1 Explore the table by returning all its content
 ```sql
 SELECT *
 FROM banking_data;
 ```
 ![Your Image Description](images/select_all.jpg)
 
-#### 3.2 Limit
+#### 3.2 Examine Borrower and 'Due to IDA' fields for the first five transactions
 ```sql
 SELECT borrower, "Due to IDA"
 FROM banking_data
@@ -33,7 +33,7 @@ LIMIT 5;
 ```
 ![Your Image Description](images/limit.jpg)
 
-#### 3.3 Alias
+#### 3.3 Examine the Region and 'Due to IDA' fields but alias the latter so it's easier to read
 ```sql
 SELECT region, "Due to IDA" AS due
 FROM banking_data
@@ -41,7 +41,7 @@ LIMIT 20;
 ```
 **Image Placeholder:** ![Your Image Description](images/alias.jpg)
 
-#### 3.4 WHERE
+#### 3.4 Examine all transactions from Nicaragua
 ```sql
 SELECT *
 FROM banking_data
@@ -49,22 +49,23 @@ WHERE country = 'Nicaragua';
 ```
 **Image Placeholder:** ![Your Image Description](images/where.jpg)
 
-#### 3.5 Count
+#### 3.5 Calculate the total number of transactions
 ```sql
-SELECT COUNT(*) FROM banking_data;
-SELECT COUNT("Due to IDA") FROM banking_data WHERE country = 'Nicaragua';
+SELECT COUNT(*) AS total_transactions
+FROM banking_data;
 ```
 **Image Placeholder:** ![Your Image Description](images/count.jpg)
 
-#### 3.6 Number of Transactions per Country
+#### 3.6 Calculate the total number of transactions per country
 ```sql
-SELECT country, COUNT(*) FROM banking_data GROUP BY "country";
+SELECT country, COUNT(*) AS total_transactions
+FROM banking_data GROUP BY "country";
 ```
 **Image Placeholder:** ![Your Image Description](images/transactions.jpg)
 
-#### 3.7 Max/MIN
+#### 3.7 Find the maximum amount owed to the IDA
 ```sql
-SELECT MAX("Due to IDA")
+SELECT country, MAX("Due to IDA") AS max_owed
 FROM banking_data;
 ```
 **Image Placeholder:** ![Your Image Description](images/max_min.jpg)
@@ -100,27 +101,4 @@ ORDER BY "Service Charge Rate" ASC;
 ```
 **Image Placeholder:** ![Your Image Description](images/lowest_rate.jpg)
 
-#### 3.12 Loans from Honduras with Service Charge Rate > 1
-```sql
-SELECT *
-FROM "banking_data"
-WHERE country = 'Honduras' AND "Service Charge Rate" > 1;
-```
-**Image Placeholder:** ![Your Image Description](images/honduras_loans.jpg)
-
-#### 3.13 Loans with Project Name 'COTTON' or 'RIVER'
-```sql
-SELECT *
-FROM "banking_data"
-WHERE "Project Name" = 'COTTON' OR "Project Name" = 'RIVER';
-```
-**Image Placeholder:** ![Your Image Description](images/cotton_river.jpg)
-
-#### 3.14 Loans not of Project Name 'COTTON'
-```sql
-SELECT *
-FROM "banking_data"
-WHERE NOT "Project Name" = 'COTTON';
-```
-**Image Placeholder:** ![Your Image Description](images/not_cotton.jpg)
 
