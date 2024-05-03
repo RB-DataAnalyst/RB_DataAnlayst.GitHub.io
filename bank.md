@@ -58,7 +58,7 @@ FROM banking_data
 GROUP BY "country"
 ORDER BY total_transactions DESC;
 ```
-<img src="images/3.6.JPG?raw=true"/>
+<img src="images/3..JPG?raw=true"/>
 
 #### 3.7 Find the maximum amount owed to the IDA
 ```sql
