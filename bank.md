@@ -22,8 +22,10 @@ FROM banking_data;
 
 #### 3.2 Examine Borrower and 'Due to IDA' fields for the first five transactions
 ```sql
-SELECT borrower, country,"Due to IDA" AS due
+SELECT region, ROUND(SUM("Due to IDA"),2) AS total_due
 FROM banking_data
+GROUP BY region
+ORDER BY total_due DESC;
 ```
 <img src="images/3.2.JPG?raw=true"/>
 
