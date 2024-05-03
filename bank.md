@@ -54,7 +54,9 @@ FROM banking_data;
 #### 3.6 Calculate the total number of transactions per country
 ```sql
 SELECT country, COUNT(*) AS total_transactions
-FROM banking_data GROUP BY "country";
+FROM banking_data
+GROUP BY "country"
+ORDER BY total_transactions DESC;
 ```
 <img src="images/3.6.JPG?raw=true"/>
 
