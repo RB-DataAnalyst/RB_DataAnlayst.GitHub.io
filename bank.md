@@ -59,6 +59,7 @@ GROUP BY "country"
 ORDER BY total_transactions DESC
 LIMIT 10;
 ```
+<img src="images/3.6.JPG?raw=true"/>
 
 
 #### 3.7 Find the maximum amount owed to the IDA
@@ -69,6 +70,7 @@ GROUP BY country
 ORDER BY max_owed DESC
 LIMIT 10;
 ```
+<img src="images/3.7.JPG?raw=true"/>
 
 
 #### 3.8 Owed to the IDA (Cummulative SUM)
