@@ -63,7 +63,9 @@ ORDER BY total_transactions DESC;
 #### 3.7 Find the maximum amount owed to the IDA
 ```sql
 SELECT country, MAX("Due to IDA") AS max_owed
-FROM banking_data;
+FROM banking_data
+GROUP BY country
+ORDER BY max_owed DESC;
 ```
 <img src="images/3.7.JPG?raw=true"/>
 
