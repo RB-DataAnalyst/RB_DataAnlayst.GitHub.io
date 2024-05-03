@@ -34,11 +34,11 @@ ORDER BY total_due DESC;
 ```
 <img src="images/3.3.JPG?raw=true"/>
 
-#### 3.4 Examine all transactions from Nicaragua
+#### 3.4 Find out what transactions have the lowest service charge rate.
 ```sql
 SELECT *
 FROM banking_data
-WHERE country = 'Nicaragua';
+ORDER BY "Service Charge Rate" ASC;
 ```
 <img src="images/3.4.JPG?raw=true"/>
 
