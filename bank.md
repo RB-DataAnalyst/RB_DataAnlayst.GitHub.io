@@ -19,9 +19,9 @@ print('this is the python code I used to solve this problem')
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
 #### 3.1 Select All
-[backtick][backtick][backtick]sql
+```sql
 SELECT * FROM banking_data;
-[backtick][backtick][backtick]
+```
 ![Your Image Description](images/select_all.jpg)
 
 #### 3.2 Limit
