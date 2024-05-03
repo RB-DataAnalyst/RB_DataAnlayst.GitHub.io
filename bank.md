@@ -3,10 +3,10 @@
 **Project Description**: Data mined 1.2M real bank transactions to find financial outliers for anomalies & correlations
 
 ## This can be a template for an internal project
-**Project description:** You can use this template to create projects in the future. Simply duplicate the page and change the text and images.
+
 
 ### 1. You can have sections and text.
-Just like this. And you can even add internal coding blocks
+
 
 ```SQL
 print('this is the python code I used to solve this problem')
