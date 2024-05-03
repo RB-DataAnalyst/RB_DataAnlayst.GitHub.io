@@ -22,9 +22,8 @@ FROM banking_data;
 
 #### 3.2 Examine Borrower and 'Due to IDA' fields for the first five transactions
 ```sql
-SELECT borrower, "Due to IDA"
+SELECT borrower, country,"Due to IDA" AS due
 FROM banking_data
-LIMIT 5;
 ```
 <img src="images/3.2.JPG?raw=true"/>
 
