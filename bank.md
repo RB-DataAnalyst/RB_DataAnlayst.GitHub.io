@@ -59,7 +59,7 @@ FROM banking_data;
 ```sql
 SELECT country, COUNT(*) AS total_transactions
 FROM banking_data
-GROUP BY "country"
+GROUP BY country
 ORDER BY total_transactions DESC
 LIMIT 10;
 ```
