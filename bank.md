@@ -20,23 +20,107 @@ Below are the SQL queries used in the project, each query is accompanied by its 
 
 #### 3.1 Select All
 ```sql
-SELECT * FROM banking_data;
+SELECT *
+FROM banking_data;
 ```
 ![Your Image Description](images/select_all.jpg)
 
 #### 3.2 Limit
-[backtick][backtick][backtick]sql
-SELECT borrower, "Due to IDA" FROM banking_data LIMIT 5;
-[backtick][backtick][backtick]
+```sql
+SELECT borrower, "Due to IDA"
+FROM banking_data
+LIMIT 5;
+```
 ![Your Image Description](images/limit.jpg)
 
-<!-- Continue with the rest of the queries similarly -->
+#### 3.3 Alias
+```sql
+SELECT region, "Due to IDA" AS due
+FROM banking_data
+LIMIT 20;
+```
+**Image Placeholder:** ![Your Image Description](images/alias.jpg)
+
+#### 3.4 WHERE
+```sql
+SELECT *
+FROM banking_data
+WHERE country = 'Nicaragua';
+```
+**Image Placeholder:** ![Your Image Description](images/where.jpg)
+
+#### 3.5 Count
+```sql
+SELECT COUNT(*) FROM banking_data;
+SELECT COUNT("Due to IDA") FROM banking_data WHERE country = 'Nicaragua';
+```
+**Image Placeholder:** ![Your Image Description](images/count.jpg)
+
+#### 3.6 Number of Transactions per Country
+```sql
+SELECT country, COUNT(*) FROM banking_data GROUP BY "country";
+```
+**Image Placeholder:** ![Your Image Description](images/transactions.jpg)
+
+#### 3.7 Max/MIN
+```sql
+SELECT MAX("Due to IDA")
+FROM banking_data;
+```
+**Image Placeholder:** ![Your Image Description](images/max_min.jpg)
+
+#### 3.8 Owed to the IDA (Cummulative SUM)
+```sql
+SELECT SUM("Due to IDA")
+FROM banking_data;
+```
+**Image Placeholder:** ![Your Image Description](images/owed_sum.jpg)
+
+#### 3.9 Owed to the IDA (Regular)
+```sql
+SELECT SUM("Due to IDA")
+FROM banking_data
+WHERE "End of Period" = (SELECT MAX("End of Period")
+FROM banking_data);
+```
+**Image Placeholder:** ![Your Image Description](images/owed_regular.jpg)
+
+#### 3.10 Average Service Charge Rate for a Loan
+```sql
+SELECT AVG("Service Charge Rate")
+FROM banking_data;
+```
+**Image Placeholder:** ![Your Image Description](images/avg_rate.jpg)
+
+#### 3.11 Lowest Service Charge Rate Transactions
+```sql
+SELECT *
+FROM banking_data
+ORDER BY "Service Charge Rate" ASC;
+```
+**Image Placeholder:** ![Your Image Description](images/lowest_rate.jpg)
+
+#### 3.12 Loans from Honduras with Service Charge Rate > 1
+```sql
+SELECT *
+FROM "banking_data"
+WHERE country = 'Honduras' AND "Service Charge Rate" > 1;
+```
+**Image Placeholder:** ![Your Image Description](images/honduras_loans.jpg)
+
+#### 3.13 Loans with Project Name 'COTTON' or 'RIVER'
+```sql
+SELECT *
+FROM "banking_data"
+WHERE "Project Name" = 'COTTON' OR "Project Name" = 'RIVER';
+```
+**Image Placeholder:** ![Your Image Description](images/cotton_river.jpg)
 
 #### 3.14 Loans not of Project Name 'COTTON'
-[backtick][backtick][backtick]sql
-SELECT * FROM "banking_data" WHERE NOT "Project Name" = 'COTTON';
-[backtick][backtick][backtick]
-![Your Image Description](images/not_cotton.jpg)
-
-These SQL queries can be used as a starting point for your project. Remember to replace the image placeholders with the actual images that correspond to each SQL query.
+```sql
+SELECT *
+FROM "banking_data"
+WHERE NOT "Project Name" = 'COTTON';
+```
+**Image Placeholder:** ![Your Image Description](images/not_cotton.jpg)
 
