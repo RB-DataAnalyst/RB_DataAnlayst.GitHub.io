@@ -45,7 +45,8 @@ WHERE country = 'Nicaragua';
 #### 3.5 Calculate the total number of transactions
 ```sql
 SELECT COUNT(*) AS total_transactions
-FROM banking_data;
+FROM banking_data
+WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
 ```
 <img src="images/3.5.JPG?raw=true"/>
 
