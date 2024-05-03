@@ -5,7 +5,7 @@
 ## Learn About My Projects
 #### [Excel Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 [<img src="images/excel.jpg?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
-My final write up for Avery Smith's 21 Days To Data project covering New York City crime data. 
+Analyzed over 2,000 rows of customer behavioral markeing data using Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.  
 
 ---
 
