@@ -56,18 +56,20 @@ FROM banking_data;
 SELECT country, COUNT(*) AS total_transactions
 FROM banking_data
 GROUP BY "country"
-ORDER BY total_transactions DESC;
+ORDER BY total_transactions DESC
+LIMIT 10;
 ```
-<img src="images/3.6.JPG?raw=true"/>
+
 
 #### 3.7 Find the maximum amount owed to the IDA
 ```sql
 SELECT country, MAX("Due to IDA") AS max_owed
 FROM banking_data
 GROUP BY country
-ORDER BY max_owed DESC;
+ORDER BY max_owed DESC
+LIMIT 10;
 ```
-<img src="images/3.7.JPG?raw=true"/>
+
 
 #### 3.8 Owed to the IDA (Cummulative SUM)
 ```sql
@@ -75,29 +77,3 @@ SELECT SUM("Due to IDA")
 FROM banking_data;
 ```
 **Image Placeholder:** ![Your Image Description](images/owed_sum.JPG)
-
-#### 3.9 Owed to the IDA (Regular)
-```sql
-SELECT SUM("Due to IDA")
-FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period")
-FROM banking_data);
-```
-**Image Placeholder:** ![Your Image Description](images/owed_regular.JPG)
-
-#### 3.10 Average Service Charge Rate for a Loan
-```sql
-SELECT AVG("Service Charge Rate")
-FROM banking_data;
-```
-**Image Placeholder:** ![Your Image Description](images/avg_rate.JPG)
-
-#### 3.11 Lowest Service Charge Rate Transactions
-```sql
-SELECT *
-FROM banking_data
-ORDER BY "Service Charge Rate" ASC;
-```
-**Image Placeholder:** ![Your Image Description](images/lowest_rate.JPG)
-
-
