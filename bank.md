@@ -13,10 +13,11 @@
 ### 3. SQL Queries
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
-#### 3.1 Explore the table by returning all its content
+#### 3.1 Explore the table by returning all its columns for the first five rows
 ```sql
 SELECT *
-FROM banking_data;
+FROM banking_data
+LIMIT 5;
 ```
 <img src="images/3.1.JPG?raw=true"/>
 
