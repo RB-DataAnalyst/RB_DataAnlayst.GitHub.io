@@ -30,7 +30,7 @@ banking_data)
 ### 2. SQL Queries
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
-#### 2.1 Examine Borrower and 'Due to IDA' fields for the first 10 transactions
+#### 2.1 Top Borrowers and Their Amounts Due
 ```sql
 SELECT Borrower, Country, "Due to IDA" AS due
 FROM banking_data
@@ -40,7 +40,7 @@ LIMIT 10;
 ```
 <img src="images/SFP1.JPG?raw=true"/>
 
-#### 2.2 Examine the Region and 'Due to IDA' fields but alias the latter so it's easier to read
+#### 2.2 Total Amount Due by Region
 ```sql
 SELECT region, ROUND(SUM("Due to IDA"),2) AS total_due
 FROM banking_data
@@ -50,7 +50,7 @@ ORDER BY total_due DESC;
 ```
 <img src="images/SFP2.JPG?raw=true"/>
 
-#### 2.3 Find out what transactions have the lowest service charge rate.
+#### 2.3 Average Service Charge Rates by Region
 ```sql
 SELECT region, AVG("Service Charge Rate") AS avg_rate
 FROM banking_data
@@ -60,7 +60,7 @@ ORDER BY avg_rate DESC;
 ```
 <img src="images/SFP3.JPG?raw=true"/>
 
-#### 2.4 Calculate the total number of transactions
+#### 2.4 Total Transactions Overall:
 ```sql
 SELECT COUNT(*) AS total_transactions
 FROM banking_data
@@ -68,7 +68,7 @@ WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
 ```
 <img src="images/SFP4.JPG?raw=true"/>
 
-#### 2.5 Calculate the total number of transactions per country
+#### 2.5 Total Transactions by Country:
 ```sql
 SELECT country, COUNT(*) AS total_transactions
 FROM banking_data
@@ -79,7 +79,7 @@ LIMIT 10;
 ```
 <img src="images/SFP5.JPG?raw=true"/>
 
-#### 2.6 Find the maximum amount owed to the IDA
+#### 2.6 Maximum Amount Owed by Countries:
 ```sql
 SELECT country, MAX("Due to IDA") AS max_owed
 FROM banking_data
