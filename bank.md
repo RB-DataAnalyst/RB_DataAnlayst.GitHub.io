@@ -31,6 +31,7 @@ banking_data)
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
 #### 2.1 Top Borrowers and Their Amounts Due
+Identify specific borrowers (typically government bodies or ministries of finance) with the highest amounts due, providing a clearer picture of responsibility and financial management at a more granular level within the countries.
 ```sql
 SELECT Borrower, Country, "Due to IDA" AS due
 FROM banking_data
@@ -39,6 +40,8 @@ ORDER BY due DESC
 LIMIT 10;
 ```
 <img src="images/SFP1.JPG?raw=true"/>
+Governmental bodies like The National Treasury and Planning of Kenya and the Ministry of Finance in Ethiopia and India are key players, reflecting their central roles in managing these countries' external
+debts.
 
 #### 2.2 Total Amount Due by Region
 ```sql
