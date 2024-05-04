@@ -23,8 +23,13 @@ The dataset is publicly available and can be accessed via the World Bank’s fin
 - On initial inspection, it seemed there might be dupicate records. However, further investigation revealed that these were not duplicates but updates in the form of different snapshots over time.
 - To ensure the analysis reflected the most current financial situation, I used a specifc SQL sub-query to filter the data:
 ```sql
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM
-banking_data)
+WHERE 
+  "End of Period" = (
+    SELECT 
+      MAX("End of Period") 
+    FROM 
+      banking_data
+  )
 ```
 
 ### 2. SQL Queries
@@ -33,11 +38,24 @@ Below are the SQL queries used in the project, each query is accompanied by its 
 #### 2.1 Top Borrowers and Their Amounts Due
 Identify specific borrowers (typically government bodies or ministries of finance) with the highest amounts due, providing a clearer picture of responsibility and financial management at a more granular level within the countries.
 ```sql
-SELECT Borrower, Country, "Due to IDA" AS due
-FROM banking_data
-WHERE due IS NOT NULL AND "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
-ORDER BY due DESC
-LIMIT 10;
+SELECT 
+  Borrower, 
+  Country, 
+  "Due to IDA" AS due 
+FROM 
+  banking_data 
+WHERE 
+  due IS NOT NULL 
+  AND "End of Period" = (
+    SELECT 
+      MAX("End of Period") 
+    FROM 
+      banking_data
+  ) 
+ORDER BY 
+  due DESC 
+LIMIT 
+  10;
 ```
 <img src="images/SFP1.JPG?raw=true"/>
 Governmental bodies like The National Treasury and Planning of Kenya and the Ministry of Finance in Ethiopia and India are key players, reflecting their central roles in managing these countries' external
@@ -48,11 +66,26 @@ debts.
 #### 2.2 Total Amount Due by Region
 Understand which regions have the largest total financial commitments due, indicating where the IDA’s financial resources are most heavily allocated.
 ```sql
-SELECT region, ROUND(SUM("Due to IDA"),2) AS total_due
-FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
-GROUP BY region
-ORDER BY total_due DESC;
+SELECT 
+  region, 
+  ROUND(
+    SUM("Due to IDA"), 
+    2
+  ) AS total_due 
+FROM 
+  banking_data 
+WHERE 
+  "End of Period" = (
+    SELECT 
+      MAX("End of Period") 
+    FROM 
+      banking_data
+  ) 
+GROUP BY 
+  region 
+ORDER BY 
+  total_due DESC;
+
 ```
 <img src="images/SFP2.JPG?raw=true"/>
 South Asia and Eastern and Southern Africa top this list, highlighting significant financial needs and engagements in these regions.
@@ -62,11 +95,23 @@ South Asia and Eastern and Southern Africa top this list, highlighting significa
 #### 2.3 Average Service Charge Rates by Region
 Explore and compare the average service charge rates across different World Bank regions, which can indicate the cost of borrowing and the financial terms set by the IDA across different geographies.
 ```sql
-SELECT region, AVG("Service Charge Rate") AS avg_rate
-FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
-GROUP BY region
-ORDER BY avg_rate DESC;
+SELECT 
+  region, 
+  AVG("Service Charge Rate") AS avg_rate 
+FROM 
+  banking_data 
+WHERE 
+  "End of Period" = (
+    SELECT 
+      MAX("End of Period") 
+    FROM 
+      banking_data
+  ) 
+GROUP BY 
+  region 
+ORDER BY 
+  avg_rate DESC;
+
 ```
 <img src="images/SFP3.JPG?raw=true"/>
 Regions like Europe and Central Asia exhibit higher rates, potentially pointing to varying economic conditions or risk assessments by the IDA.
@@ -76,9 +121,18 @@ Regions like Europe and Central Asia exhibit higher rates, potentially pointing 
 #### 2.4 Total Transactions Overall:
 Quantify the total number of transactions recorded in the latest dataset snapshot, offering a macroscopic view of the activity level across all countries with the IDA.
 ```sql
-SELECT COUNT(*) AS total_transactions
-FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
+SELECT 
+  COUNT(*) AS total_transactions 
+FROM 
+  banking_data 
+WHERE 
+  "End of Period" = (
+    SELECT 
+      MAX("End of Period") 
+    FROM 
+      banking_data
+  );
+
 ```
 <img src="images/SFP4.JPG?raw=true"/>
 With 9,991 transactions, the data reflect a high level of global engagement with the IDA, indicating extensive developmental efforts.
@@ -88,12 +142,25 @@ With 9,991 transactions, the data reflect a high level of global engagement with
 #### 2.5 Total Transactions by Country:
 Determine which countries have the highest number of transactions with the IDA, providing insight into which countries are most actively engaging with the World Bank in terms of the number of projects or financial interactions.
 ```sql
-SELECT country, COUNT(*) AS total_transactions
-FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
-GROUP BY country
-ORDER BY total_transactions DESC
-LIMIT 10;
+SELECT 
+  country, 
+  COUNT(*) AS total_transactions 
+FROM 
+  banking_data 
+WHERE 
+  "End of Period" = (
+    SELECT 
+      MAX("End of Period") 
+    FROM 
+      banking_data
+  ) 
+GROUP BY 
+  country 
+ORDER BY 
+  total_transactions DESC 
+LIMIT 
+  10;
+
 ```
 <img src="images/SFP5.JPG?raw=true"/>
 India, Bangladesh, and Pakistan are the most active, which might reflect their dynamic involvement in development projects financed by the IDA.
@@ -103,12 +170,24 @@ India, Bangladesh, and Pakistan are the most active, which might reflect their d
 #### 2.6 Maximum Amount Owed by Countries:
 Identify which countries have the highest financial obligations to the IDA. This helps understand where the most significant financial interventions might be needed and which countries are under the heaviest debt burden.
 ```sql
-SELECT country, MAX("Due to IDA") AS max_owed
-FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
-GROUP BY country
-ORDER BY max_owed DESC
-LIMIT 10;
+SELECT 
+  country, 
+  MAX("Due to IDA") AS max_owed 
+FROM 
+  banking_data 
+WHERE 
+  "End of Period" = (
+    SELECT 
+      MAX("End of Period") 
+    FROM 
+      banking_data
+  ) 
+GROUP BY 
+  country 
+ORDER BY 
+  max_owed DESC 
+LIMIT 
+  10;
 ```
 <img src="images/SFP6.JPG?raw=true"/>
 Countries like Kenya and Nigeria top this list, highlighting their substantial financial commitments.
