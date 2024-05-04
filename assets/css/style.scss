@@ -16,3 +16,22 @@
   background-color: #005582;
   color: white;
 }
+
+.github-btn {
+  display: inline-block;
+  background-color: black; /* Black background for the button */
+  color: white; /* White text color */
+  padding: 8px 16px; /* Padding to make it look like a button */
+  text-decoration: none; /* Removes underline from links */
+  border-radius: 5px; /* Rounded corners for the button */
+  font-family: Arial, sans-serif; /* Font similar to what GitHub uses */
+  font-size: 16px; /* Reasonable text size */
+  border: 1px solid #333; /* Subtle border */
+}
+
+.github-btn:hover, .github-btn:focus {
+  background-color: #333; /* Darker grey on hover/focus */
+  color: white;
+  text-decoration: none; /* Ensures text remains not underlined */
+}
+
