@@ -18,7 +18,7 @@ detailed financial information related to credits and grants administered by the
 The dataset is publicly available and can be accessed via the World Bank’s finances website at [World Bank IDA Credits and Grants](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx).
 
 ## Analysis
-### Data Inspection
+### 1. Data Inspection
 - The dataset was acquired and loaded into a table using CSVFiddle.
 - On initial inspection, it seemed there might be dupicate records. However, further investigation revealed that these were not duplicates but updates in the form of different snapshots over time.
 - To ensure the analysis reflected the most current financial situation, I used a specifc SQL sub-query to filter the data:
@@ -27,10 +27,10 @@ WHERE "End of Period" = (SELECT MAX("End of Period") FROM
 banking_data)
 ```
 
-### 1. SQL Queries
+### 2. SQL Queries
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
-#### 3.2 Examine Borrower and 'Due to IDA' fields for the first 10 transactions
+#### 2.1 Examine Borrower and 'Due to IDA' fields for the first 10 transactions
 ```sql
 SELECT Borrower, Country, "Due to IDA" AS due
 FROM banking_data
@@ -40,7 +40,7 @@ LIMIT 10;
 ```
 <img src="images/SFP1.JPG?raw=true"/>
 
-#### 3.3 Examine the Region and 'Due to IDA' fields but alias the latter so it's easier to read
+#### 2.2 Examine the Region and 'Due to IDA' fields but alias the latter so it's easier to read
 ```sql
 SELECT region, ROUND(SUM("Due to IDA"),2) AS total_due
 FROM banking_data
@@ -50,7 +50,7 @@ ORDER BY total_due DESC;
 ```
 <img src="images/SFP2.JPG?raw=true"/>
 
-#### 3.4 Find out what transactions have the lowest service charge rate.
+#### 2.3 Find out what transactions have the lowest service charge rate.
 ```sql
 SELECT region, AVG("Service Charge Rate") AS avg_rate
 FROM banking_data
@@ -60,7 +60,7 @@ ORDER BY avg_rate DESC;
 ```
 <img src="images/SFP3.JPG?raw=true"/>
 
-#### 3.5 Calculate the total number of transactions
+#### 2.4 Calculate the total number of transactions
 ```sql
 SELECT COUNT(*) AS total_transactions
 FROM banking_data
@@ -68,7 +68,7 @@ WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
 ```
 <img src="images/SFP4.JPG?raw=true"/>
 
-#### 3.6 Calculate the total number of transactions per country
+#### 2.5 Calculate the total number of transactions per country
 ```sql
 SELECT country, COUNT(*) AS total_transactions
 FROM banking_data
@@ -79,7 +79,7 @@ LIMIT 10;
 ```
 <img src="images/SFP5.JPG?raw=true"/>
 
-#### 3.7 Find the maximum amount owed to the IDA
+#### 2.6 Find the maximum amount owed to the IDA
 ```sql
 SELECT country, MAX("Due to IDA") AS max_owed
 FROM banking_data
