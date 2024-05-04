@@ -20,10 +20,7 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 
 ### [SQL Financial Project](/bank.md)
 [<img src="images/SQLproject1.png?raw=true"/>](/bank.md)
-In this project, I utilized SQL to analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Focused on:
-1. Identifing countries with the highest financial obligations, highlighting potential areas for focused economic support.
-2. Analyzing transaction volumes to determine regions with the most active engagement in development projects.
-3. Compared service charge rates across regions, revealing differences in borrowing costs and financial terms.
-
-
-
+In this project, I utilized SQL to analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:
+1. Detected significant financial obligations in several countries, suggesting targeted areas for potential economic assistance.
+2. Observed high transaction volumes in specific regions, indicating robust engagement with World Bank development initiatives.
+3. Uncovered varying service charge rates, highlighting regional disparities in the cost of financing.
