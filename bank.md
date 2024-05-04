@@ -2,8 +2,8 @@
 ---
 
 [Home](index.md)  
-[Analysis](bank.md#Analysis)  
-[Conclusion](bank.md#Conclusion)
+[Analysis](bank.md/Analysis)  
+[Conclusion](bank.md/Conclusion)
 
 ## Introduction
 With a foundation in accounting and an interest in financial datasets, I was drawn to the World Bank's data due to its breadth and complexity. This project capitalizes on my SQL skills to dissect and understand global
@@ -211,4 +211,4 @@ The analysis also revealed differences in service charge rates across regions, w
 
 SQL's capability to efficiently filter and analyze data over millions of records enabled me to uncover meaningful financial insights across various countries. The process highlighted the importance of data preparation and the power of SQL in extracting actionable insights from the World Bank's extensive datasets.
 
-[Back to Top](bank.md#Introduction)
+[Back to Top](bank.md/Introduction)
