@@ -42,6 +42,7 @@ LIMIT 10;
 <img src="images/SFP1.JPG?raw=true"/>
 Governmental bodies like The National Treasury and Planning of Kenya and the Ministry of Finance in Ethiopia and India are key players, reflecting their central roles in managing these countries' external
 debts.
+
 ---
 #### 2.2 Total Amount Due by Region
 ```sql
