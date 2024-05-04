@@ -44,5 +44,9 @@
 }
 
 header {
-  background-color: #f8f9fa
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;  /* Horizontally center content */
+  align-items: center;      /* Vertically center content (if needed) */
+  height: 100px;            /* Set a height if you want to vertically center within a specific height */
 }
