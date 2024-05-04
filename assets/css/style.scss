@@ -53,15 +53,18 @@ header {
     display: inline-block;
     margin: 5px;
     padding: 8px 16px;
-    background-color: #0077B5;  /* Adjust the background color as needed */
+    background-color: #28a745
+;  /* Adjust the background color as needed */
     color: white;
     text-decoration: none;
-    border: 2px solid #005582;  /* Solid border, adjust color as needed */
+    border: 2px solid #218838
+;  /* Solid border, adjust color as needed */
     border-radius: 15px;  /* This gives the rounded corners */
     font-family: Arial, sans-serif;  /* Optional: sets the font */
     transition: background-color 0.3s;  /* Smooth transition for hover effect */
 }
 
 .skill-tags .skill:hover {
-    background-color: #005582;  /* Darker shade on hover */
+    background-color: #218838
+;  /* Darker shade on hover */
 }
