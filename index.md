@@ -5,7 +5,7 @@
 ---
 
 ### [SQL Financial Project](/bank.md)
-[<img src="images/SQLproject1.png?raw=true"/>](/bank.md)
+[<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/bank.md)
 In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:
 1. Detected significant financial obligations in several countries, suggesting targeted areas for potential economic assistance.
 2. Observed high transaction volumes in specific regions, indicating robust engagement with World Bank development initiatives.
@@ -14,7 +14,7 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 ---
 
 ### [Tableau Education Project](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
-[<img src="images/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+[<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
 In this case study, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
 1. What schools are struggling with graduation rates the most?
 2. How does class size affect college admissions?
