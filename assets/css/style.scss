@@ -5,39 +5,38 @@
 /* LinkedIn Button Styles */
 .linkedin-btn {
   display: inline-block;
-  background-color: #0077B5; /* LinkedIn brand color */
+  background-color: #0077B5; 
   color: white;
-  padding: 8px 16px; /* Adjusted to match GitHub button dimensions */
+  padding: 8px 16px; 
   text-decoration: none;
   border-radius: 5px;
-  font-family: Arial, sans-serif; /* Ensuring font consistency */
+  font-family: Arial, sans-serif; 
   font-size: 16px;
-  border: 1px solid #005582; /* Slightly darker border for more depth */
-  font-weight: bold; /* Optional: Adjust if you prefer uniform font weight */
+  border: 1px solid #005582; 
+  font-weight: bold; 
 }
 
 .linkedin-btn:hover, .linkedin-btn:focus {
-  background-color: #005582; /* Darker shade for hover state */
+  background-color: #005582; 
   color: white;
-  text-decoration: none; /* Ensures text remains not underlined */
-  cursor: pointer; /* Ensures cursor changes to pointer */
-}
+  text-decoration: none; 
+  cursor: pointer; 
 
 /* GitHub Button Styles */
 .github-btn {
   display: inline-block;
-  background-color: black; /* Black background for the button */
+  background-color: black; 
   color: white;
   padding: 8px 16px;
   text-decoration: none;
   border-radius: 5px;
   font-family: Arial, sans-serif;
   font-size: 16px;
-  border: 1px solid #333; /* Subtle border */
+  border: 1px solid #333; 
 }
 
 .github-btn:hover, .github-btn:focus {
-  background-color: #333; /* Darker grey on hover/focus */
+  background-color: #333; 
   color: white;
   text-decoration: none;
   cursor: pointer;
@@ -45,12 +44,11 @@
 
 header {
   background-color: #f8f9fa;
-        /* Vertically center content (if needed) */
   text-align: center;
 }
 
 .skill-tags {
-    padding-top: 30px; /* Add some space between the line and the skill tags */
+    padding-top: 30px; 
 }
 
 .skill-tags .skill {
@@ -58,19 +56,19 @@ header {
     margin: 5px;
     padding: 6px 12px;
     background-color: #28a745
-;  /* Adjust the background color as needed */
+; 
     color: white;
     text-decoration: none;
     border: 2px solid #218838
-;  /* Solid border, adjust color as needed */
-    border-radius: 12px;  /* This gives the rounded corners */
-    font-family: Arial, sans-serif;  /* Optional: sets the font */
-    transition: background-color 0.3s;  /* Smooth transition for hover effect */
+; 
+    border-radius: 12px; 
+    font-family: Arial, sans-serif;  
+    transition: background-color 0.3s;  
 }
 
 .skill-tags .skill:hover {
     background-color: #218838
-;  /* Darker shade on hover */
+;  
 }
 
 section {
