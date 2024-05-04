@@ -1,7 +1,7 @@
 # SQL at the Helm: Charting Financial Waters with World Bank Data
 ---
 
-[Home](index.md)  
+**[Home](index.md)**  
 
 
 ## Introduction
