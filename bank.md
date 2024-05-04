@@ -46,7 +46,7 @@ debts.
 ---
 
 #### 2.2 Total Amount Due by Region
-To understand which regions have the largest total financial commitments due, indicating where the IDA’s financial resources are most heavily allocated.
+Understand which regions have the largest total financial commitments due, indicating where the IDA’s financial resources are most heavily allocated.
 ```sql
 SELECT region, ROUND(SUM("Due to IDA"),2) AS total_due
 FROM banking_data
@@ -60,7 +60,7 @@ South Asia and Eastern and Southern Africa top this list, highlighting significa
 ---
 
 #### 2.3 Average Service Charge Rates by Region
-To explore and compare the average service charge rates across different World Bank regions, which can indicate the cost of borrowing and the financial terms set by the IDA across different geographies.
+Explore and compare the average service charge rates across different World Bank regions, which can indicate the cost of borrowing and the financial terms set by the IDA across different geographies.
 ```sql
 SELECT region, AVG("Service Charge Rate") AS avg_rate
 FROM banking_data
@@ -71,15 +71,22 @@ ORDER BY avg_rate DESC;
 <img src="images/SFP3.JPG?raw=true"/>
 Regions like Europe and Central Asia exhibit higher rates, potentially pointing to varying economic conditions or risk assessments by the IDA.
 
+---
+
 #### 2.4 Total Transactions Overall:
+Quantify the total number of transactions recorded in the latest dataset snapshot, offering a macroscopic view of the activity level across all countries with the IDA.
 ```sql
 SELECT COUNT(*) AS total_transactions
 FROM banking_data
 WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
 ```
 <img src="images/SFP4.JPG?raw=true"/>
+With 9,991 transactions, the data reflect a high level of global engagement with the IDA, indicating extensive developmental efforts.
+
+---
 
 #### 2.5 Total Transactions by Country:
+Determine which countries have the highest number of transactions with the IDA, providing insight into which countries are most actively engaging with the World Bank in terms of the number of projects or financial interactions.
 ```sql
 SELECT country, COUNT(*) AS total_transactions
 FROM banking_data
@@ -89,8 +96,12 @@ ORDER BY total_transactions DESC
 LIMIT 10;
 ```
 <img src="images/SFP5.JPG?raw=true"/>
+India, Bangladesh, and Pakistan are the most active, which might reflect their dynamic involvement in development projects financed by the IDA.
+
+---
 
 #### 2.6 Maximum Amount Owed by Countries:
+Identify which countries have the highest financial obligations to the IDA. This helps understand where the most significant financial interventions might be needed and which countries are under the heaviest debt burden.
 ```sql
 SELECT country, MAX("Due to IDA") AS max_owed
 FROM banking_data
@@ -100,3 +111,4 @@ ORDER BY max_owed DESC
 LIMIT 10;
 ```
 <img src="images/SFP6.JPG?raw=true"/>
+Countries like Kenya and Nigeria top this list, highlighting their substantial financial commitments.
