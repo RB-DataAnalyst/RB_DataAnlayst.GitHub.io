@@ -1,0 +1,18 @@
+---
+---
+
+@import "{{ site.theme }}";
+.linkedin-btn {
+  display: inline-block;
+  background-color: #0077B5; /* LinkedIn brand color */
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.linkedin-btn:hover, .linkedin-btn:focus {
+  background-color: #005582;
+  color: white;
+}
