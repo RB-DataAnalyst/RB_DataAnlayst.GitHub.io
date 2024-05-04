@@ -18,7 +18,14 @@ detailed financial information related to credits and grants administered by the
 The dataset is publicly available and can be accessed via the World Bank’s finances website at [World Bank IDA Credits and Grants](https://finances.worldbank.org/Loans-and-Credits/IDA-Statement-Of-Credits-and-Grants-Historical-Dat/tdwh-3krx).
 
 ## Analysis
-
+### Data Inspection
+- The dataset was acquired and loaded into a table using CSVFiddle.
+- On initial inspection, it seemed there might be dupicate records. However, further investigation revealed that these were not duplicates but updates in the form of different snapshots over time.
+- To ensure the analysis reflected the most current financial situation, I used a specifc SQL sub-query to filter the data:
+  ```sql       
+WHERE "End of Period" = (SELECT MAX("End of Period") FROM
+banking_data)
+```
 
 ### 1. SQL Queries
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
