@@ -5,7 +5,7 @@
 ---
 
 ### [SQL Financial Project](/projects/bank.md)
-[<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/bank.md)
+[<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/projects/bank.md)
 In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:
 1. Detected significant financial obligations in several countries, suggesting targeted areas for potential economic assistance.
 2. Observed high transaction volumes in specific regions, indicating robust engagement with World Bank development initiatives.
