@@ -5,10 +5,7 @@
 
 
 ## Introduction
-With a foundation in accounting and an interest in financial datasets, I was drawn to the World Bank's data due to its breadth and complexity. This project capitalizes on my SQL skills to dissect and understand global
-financial transactions from the World Bank's dataset. 
-
-The objective of this analysis is to navigate through this extensive dataset to unearth insightful financial patterns, assess the latest status of loans, and calculate obligations by various global borrowers using SQL queries.
+With a foundation in accounting and an interest in financial datasets, I was drawn to the World Bank's data due to its breadth and complexity. The objective of this analysis is to navigate through this extensive dataset to unearth insightful financial patterns, assess the latest status of loans, and calculate obligations by various global borrowers using SQL queries.
 
 ## Key Findings
 1. **Predominant Financial Obligations in Kenya and Nigeria:** Kenya and Nigeria are highlighted as the top countries with the highest financial obligations to the IDA, with Kenya leading at $7.5 billion. This indicates substantial financial engagement and potentially significant repayment pressures on these economies.
