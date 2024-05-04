@@ -1,8 +1,11 @@
 # SQL Financial Project
 ---
-**Project Description**: Data mined 1.2M real bank transactions to find financial outliers for anomalies & correlations
+**Project Description**: This project explores the extensive dataset of World Bank loans to uncover interesting financial trends and patterns across various countries.
 
-## This can be a template for an internal project
+## Key Findings
+1. Diverse Borrowing Patterns: There's a significant range in borrowing behaviors among different countries.
+2. Transaction Trends: The frequency and size of transactions vary widely, revealing different financial behaviors.
+3. Payment Dynamics: Recent data shows varied rates of loan repayments, providing insights into financial health.
 
 ### 1. SQL Queries
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
@@ -29,10 +32,11 @@ ORDER BY total_due DESC;
 
 #### 3.4 Find out what transactions have the lowest service charge rate.
 ```sql
-SELECT *
+SELECT region, AVG("Service Charge Rate") AS avg_rate
 FROM banking_data
 WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
-ORDER BY "Service Charge Rate" ASC;
+GROUP BY region
+ORDER BY avg_rate DESC;
 ```
 <img src="images/3.4.JPG?raw=true"/>
 
@@ -48,7 +52,7 @@ WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
 ```sql
 SELECT country, COUNT(*) AS total_transactions
 FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
+WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
 GROUP BY country
 ORDER BY total_transactions DESC
 LIMIT 10;
@@ -59,7 +63,7 @@ LIMIT 10;
 ```sql
 SELECT country, MAX("Due to IDA") AS max_owed
 FROM banking_data
-WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
+WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
 GROUP BY country
 ORDER BY max_owed DESC
 LIMIT 10;
