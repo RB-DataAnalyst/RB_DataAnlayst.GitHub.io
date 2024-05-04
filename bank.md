@@ -23,8 +23,6 @@ The dataset is publicly available and can be accessed via the World Bank’s fin
 - On initial inspection, it seemed there might be dupicate records. However, further investigation revealed that these were not duplicates but updates in the form of different snapshots over time.
 - To ensure the analysis reflected the most current financial situation, I used a specifc SQL sub-query to filter the data:
 ```sql
-SELECT *
-FROM banking_data
 WHERE "End of Period" = (SELECT MAX("End of Period") FROM
 banking_data)
 ```
