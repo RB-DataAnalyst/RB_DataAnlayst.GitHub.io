@@ -60,6 +60,7 @@ South Asia and Eastern and Southern Africa top this list, highlighting significa
 ---
 
 #### 2.3 Average Service Charge Rates by Region
+To explore and compare the average service charge rates across different World Bank regions, which can indicate the cost of borrowing and the financial terms set by the IDA across different geographies.
 ```sql
 SELECT region, AVG("Service Charge Rate") AS avg_rate
 FROM banking_data
@@ -68,6 +69,7 @@ GROUP BY region
 ORDER BY avg_rate DESC;
 ```
 <img src="images/SFP3.JPG?raw=true"/>
+Regions like Europe and Central Asia exhibit higher rates, potentially pointing to varying economic conditions or risk assessments by the IDA.
 
 #### 2.4 Total Transactions Overall:
 ```sql
