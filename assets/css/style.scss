@@ -49,6 +49,14 @@ header {
   text-align: center;
 }
 
+.skill-section h2 {
+    color: white;  /* Sets the background color to white */
+    padding: 10px 20px;  /* Adds padding around the text */
+    margin: 0;  /* Removes any default margin */
+    border-bottom: 2px solid #ccc;  /* Optional: adds a subtle border line under the header */
+    text-align: center;  /* Centers the text */
+}
+
 .skill-tags {
     padding-top: 30px; 
     padding: 15px;  /* Adjust padding to ensure there's space inside the border */
