@@ -51,6 +51,11 @@ header {
 
 .skill-tags {
     padding-top: 30px; 
+    padding: 15px;  /* Adjust padding to ensure there's space inside the border */
+    border: 2px solid #218838;  /* Solid border using the green theme color */
+    border-radius: 15px;  /* Rounded corners for the border */
+    display: inline-block;  /* Ensures the container fits the content width */
+    background: #fff;  /* Optional: adds a background color if needed */
 }
 
 .skill-tags .skill {
