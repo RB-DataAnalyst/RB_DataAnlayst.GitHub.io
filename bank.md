@@ -211,4 +211,4 @@ The analysis also revealed differences in service charge rates across regions, w
 
 SQL's capability to efficiently filter and analyze data over millions of records enabled me to uncover meaningful financial insights across various countries. The process highlighted the importance of data preparation and the power of SQL in extracting actionable insights from the World Bank's extensive datasets.
 
-[Home](index.md)
+[Back to Top](bank.md#Introduction)
