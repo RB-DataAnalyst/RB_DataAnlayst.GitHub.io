@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
+
 /* LinkedIn Button Styles */
 .linkedin-btn {
   display: inline-block;
@@ -55,23 +56,20 @@ header {
     display: inline-block;
     margin: 5px;
     padding: 6px 12px;
-    background-color: #28a745
-; 
+    background-color: #28a745; 
     color: white;
     text-decoration: none;
-    border: 2px solid #218838
-; 
+    border: 2px solid #218838; 
     border-radius: 12px; 
     font-family: Arial, sans-serif;  
     transition: background-color 0.3s;  
 }
 
 .skill-tags .skill:hover {
-    background-color: #218838
-;  
+    background-color: #218838;  
 }
 
 section {
-  width: 65%
+  width: 65%;
 }
 
