@@ -86,7 +86,7 @@ GROUP BY
 ORDER BY 
   total_due DESC;
 ```
-<img src="images/SFP2.JPG?raw=true"/>
+<img src="images/SFP2.JPG?raw=true"/>  
 South Asia and Eastern and Southern Africa top this list, highlighting significant financial needs and engagements in these regions.
 
 ---
@@ -112,7 +112,7 @@ ORDER BY
   avg_rate DESC;
 
 ```
-<img src="images/SFP3.JPG?raw=true"/>
+<img src="images/SFP3.JPG?raw=true"/>  
 Regions like Europe and Central Asia exhibit higher rates, potentially pointing to varying economic conditions or risk assessments by the IDA.
 
 ---
@@ -133,7 +133,7 @@ WHERE
   );
 
 ```
-<img src="images/SFP4.JPG?raw=true"/>
+<img src="images/SFP4.JPG?raw=true"/>  
 With 9,991 transactions, the data reflect a high level of global engagement with the IDA, indicating extensive developmental efforts.
 
 ---
@@ -161,7 +161,7 @@ LIMIT
   10;
 
 ```
-<img src="images/SFP5.JPG?raw=true"/>
+<img src="images/SFP5.JPG?raw=true"/>  
 India, Bangladesh, and Pakistan are the most active, which might reflect their dynamic involvement in development projects financed by the IDA.
 
 ---
@@ -188,7 +188,7 @@ ORDER BY
 LIMIT 
   10;
 ```
-<img src="images/SFP6.JPG?raw=true"/>
+<img src="images/SFP6.JPG?raw=true"/>  
 Countries like Kenya and Nigeria top this list, highlighting their substantial financial commitments.
 
 ## Conclusion
