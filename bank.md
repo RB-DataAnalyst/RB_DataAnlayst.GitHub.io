@@ -115,15 +115,15 @@ Countries like Kenya and Nigeria top this list, highlighting their substantial f
 
 ## Conclusion
 This analysis of the World Bank's IDA data for 2022 provided crucial insights into the financial dynamics of countries and regions interacting with international development funds:
-1. **Substantial Debts in Key Nations**
+1. **Substantial Debts in Key Nations:**
 Kenya and Nigeria emerged as countries with the most significant financial obligations to the IDA,
 indicating potential areas for focused economic support or debt relief interventions.
-2. **High Engagement in Developmental Activities**
+2. **High Engagement in Developmental Activities:**
 Countries like India, Bangladesh, and Pakistan showed high numbers of transactions, illustrating
 their active participation in development projects. This suggests a robust engagement with the IDA in striving for economic development and poverty alleviation.
-3. **Regional Financial Commitments**
+3. **Regional Financial Commitments:**
 South Asia and Eastern and Southern Africa were identified as regions with the highest total amounts due, highlighting where the IDA’s efforts are most concentrated and perhaps where the needs are greatest.
-4. **Varied Borrowing Costs**
+4. **Varied Borrowing Costs:**
 The analysis also revealed differences in service charge rates across regions, with Europe and Central Asia facing the highest rates, which could affect the terms of financial aid and loan agreements in these regions.
 
-
+SQL's capability to efficiently filter and analyze data over millions of records enabled me to uncover meaningful financial insights across various countries. The process highlighted the importance of data preparation and the power of SQL in extracting actionable insights from the World Bank's extensive datasets.
