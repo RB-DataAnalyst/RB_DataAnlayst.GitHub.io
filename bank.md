@@ -31,7 +31,7 @@ banking_data)
 Below are the SQL queries used in the project, each query is accompanied by its respective output image:
 
 #### 2.1 Top Borrowers and Their Amounts Due
-===Identify specific borrowers (typically government bodies or ministries of finance) with the highest amounts due, providing a clearer picture of responsibility and financial management at a more granular level within the countries.===
+==Identify specific borrowers (typically government bodies or ministries of finance) with the highest amounts due, providing a clearer picture of responsibility and financial management at a more granular level within the countries.==
 ```sql
 SELECT Borrower, Country, "Due to IDA" AS due
 FROM banking_data
