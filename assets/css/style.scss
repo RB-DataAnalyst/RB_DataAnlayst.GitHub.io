@@ -2,36 +2,44 @@
 ---
 
 @import "{{ site.theme }}";
+/* LinkedIn Button Styles */
 .linkedin-btn {
   display: inline-block;
   background-color: #0077B5; /* LinkedIn brand color */
   color: white;
-  padding: 10px 20px;
+  padding: 8px 16px; /* Adjusted to match GitHub button dimensions */
   text-decoration: none;
   border-radius: 5px;
-  font-weight: bold;
+  font-family: Arial, sans-serif; /* Ensuring font consistency */
+  font-size: 16px;
+  border: 1px solid #005582; /* Slightly darker border for more depth */
+  font-weight: bold; /* Optional: Adjust if you prefer uniform font weight */
 }
 
 .linkedin-btn:hover, .linkedin-btn:focus {
-  background-color: #005582;
+  background-color: #005582; /* Darker shade for hover state */
   color: white;
+  text-decoration: none; /* Ensures text remains not underlined */
+  cursor: pointer; /* Ensures cursor changes to pointer */
 }
 
+/* GitHub Button Styles */
 .github-btn {
   display: inline-block;
   background-color: black; /* Black background for the button */
-  color: white; /* White text color */
-  padding: 8px 16px; /* Padding to make it look like a button */
-  text-decoration: none; /* Removes underline from links */
-  border-radius: 5px; /* Rounded corners for the button */
-  font-family: Arial, sans-serif; /* Font similar to what GitHub uses */
-  font-size: 16px; /* Reasonable text size */
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
   border: 1px solid #333; /* Subtle border */
 }
 
 .github-btn:hover, .github-btn:focus {
   background-color: #333; /* Darker grey on hover/focus */
   color: white;
-  text-decoration: none; /* Ensures text remains not underlined */
+  text-decoration: none;
+  cursor: pointer;
 }
 
