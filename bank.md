@@ -18,7 +18,7 @@ WHERE due IS NOT NULL AND "End of Period" = (SELECT MAX("End of Period") FROM ba
 ORDER BY due DESC
 LIMIT 10;
 ```
-<img src="images/3.2.JPG?raw=true"/>
+<img src="images/SFP1.JPG?raw=true"/>
 
 #### 3.3 Examine the Region and 'Due to IDA' fields but alias the latter so it's easier to read
 ```sql
@@ -28,7 +28,7 @@ WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
 GROUP BY region
 ORDER BY total_due DESC;
 ```
-<img src="images/3.3.JPG?raw=true"/>
+<img src="images/SFP2.JPG?raw=true"/>
 
 #### 3.4 Find out what transactions have the lowest service charge rate.
 ```sql
@@ -38,7 +38,7 @@ WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data)
 GROUP BY region
 ORDER BY avg_rate DESC;
 ```
-<img src="images/3.4.JPG?raw=true"/>
+<img src="images/SFP3.JPG?raw=true"/>
 
 #### 3.5 Calculate the total number of transactions
 ```sql
@@ -46,7 +46,7 @@ SELECT COUNT(*) AS total_transactions
 FROM banking_data
 WHERE "End of Period" = (SELECT MAX("End of Period") FROM banking_data);
 ```
-<img src="images/3.5.JPG?raw=true"/>
+<img src="images/SFP4.JPG?raw=true"/>
 
 #### 3.6 Calculate the total number of transactions per country
 ```sql
@@ -57,7 +57,7 @@ GROUP BY country
 ORDER BY total_transactions DESC
 LIMIT 10;
 ```
-<img src="images/3.6.JPG?raw=true"/>
+<img src="images/SFP5.JPG?raw=true"/>
 
 #### 3.7 Find the maximum amount owed to the IDA
 ```sql
@@ -68,4 +68,4 @@ GROUP BY country
 ORDER BY max_owed DESC
 LIMIT 10;
 ```
-<img src="images/3.7.JPG?raw=true"/>
+<img src="images/SFP6.JPG?raw=true"/>
