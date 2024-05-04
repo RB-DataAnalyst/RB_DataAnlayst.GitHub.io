@@ -1,5 +1,8 @@
 # SQL at the Helm: Charting Financial Waters with World Bank Data
 ---
+
+[Home](index.html)
+
 ## Introduction
 With a foundation in accounting and an interest in financial datasets, I was drawn to the World Bank's data due to its breadth and complexity. This project capitalizes on my SQL skills to dissect and understand global
 financial transactions from the World Bank's dataset. 
@@ -205,3 +208,5 @@ South Asia and Eastern and Southern Africa were identified as regions with the h
 The analysis also revealed differences in service charge rates across regions, with Europe and Central Asia facing the highest rates, which could affect the terms of financial aid and loan agreements in these regions.
 
 SQL's capability to efficiently filter and analyze data over millions of records enabled me to uncover meaningful financial insights across various countries. The process highlighted the importance of data preparation and the power of SQL in extracting actionable insights from the World Bank's extensive datasets.
+
+[Home](index.html)
