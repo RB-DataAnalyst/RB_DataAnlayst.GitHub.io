@@ -44,7 +44,9 @@ Governmental bodies like The National Treasury and Planning of Kenya and the Min
 debts.
 
 ---
+
 #### 2.2 Total Amount Due by Region
+To understand which regions have the largest total financial commitments due, indicating where the IDA’s financial resources are most heavily allocated.
 ```sql
 SELECT region, ROUND(SUM("Due to IDA"),2) AS total_due
 FROM banking_data
@@ -53,6 +55,9 @@ GROUP BY region
 ORDER BY total_due DESC;
 ```
 <img src="images/SFP2.JPG?raw=true"/>
+South Asia and Eastern and Southern Africa top this list, highlighting significant financial needs and engagements in these regions.
+
+---
 
 #### 2.3 Average Service Charge Rates by Region
 ```sql
