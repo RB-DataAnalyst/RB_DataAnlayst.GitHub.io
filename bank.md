@@ -85,7 +85,6 @@ GROUP BY
   region 
 ORDER BY 
   total_due DESC;
-
 ```
 <img src="images/SFP2.JPG?raw=true"/>
 South Asia and Eastern and Southern Africa top this list, highlighting significant financial needs and engagements in these regions.
