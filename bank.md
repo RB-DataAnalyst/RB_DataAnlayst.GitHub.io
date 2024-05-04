@@ -1,8 +1,8 @@
 # SQL at the Helm: Charting Financial Waters with World Bank Data
 ---
 
-[Home](index.md)
-[Key Findings](bank.md/#key-findings)
+[Home](index.md)  
+[Key Findings](bank.md/#Analysis)
 
 ## Introduction
 With a foundation in accounting and an interest in financial datasets, I was drawn to the World Bank's data due to its breadth and complexity. This project capitalizes on my SQL skills to dissect and understand global
