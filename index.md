@@ -19,7 +19,7 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 ---
 
 ### [SQL Financial Project](/bank.md)
-
+[<img src="images/SQLproject1.png?raw=true"/>](/bank.md)
 
 
 
