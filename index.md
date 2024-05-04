@@ -1,5 +1,6 @@
 # Welcome to My Portfolio
 
+## Learn About My Projects
 ### [SQL Financial Project](/bank.md)
 [<img src="images/SQLproject1.png?raw=true"/>](/bank.md)
 In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:
@@ -18,7 +19,6 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
  
 ---
 
-## Learn About My Projects
 ### [Excel Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 [<img src="images/excel.jpg?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 Analyzed over 2,000 rows of customer behavioral markeing data using Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.  
