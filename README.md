@@ -2,7 +2,7 @@
 
 ### Introduction
 
-Use this template to create a portfolio quicky. 
+This repo contains my data analyst portfolio. Files related to specific items are in the [projects](/projects)
 
 ### Installation
 
