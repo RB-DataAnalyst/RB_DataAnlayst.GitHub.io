@@ -1,6 +1,9 @@
 # Welcome to My Portfolio
 
 ## Learn About My Projects👇
+
+---
+
 ### [SQL Financial Project](/bank.md)
 [<img src="images/SQLproject1.png?raw=true"/>](/bank.md)
 In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:
