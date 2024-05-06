@@ -1,4 +1,4 @@
-                                                               # Welcome to My Portfolio
+# Welcome to My Portfolio
 ## 👇 Learn About My Projects 👇
 
 ### [SQL Financial Project](/projects/bank.md)
