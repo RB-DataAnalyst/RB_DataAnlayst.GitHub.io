@@ -22,8 +22,8 @@ In this case study, I analyzed the State of Massachusetts education data. The ma
 
 ---
 
-### [🔗 Excel Project (External Article)](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)  
-[<img src="images/excel/excel.JPG?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)[![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
+### [🔗 Excel Project (External Article)](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)[![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
+[<img src="images/excel/excel.JPG?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 Analyzed over 2,000 rows of customer behavioral markeing data using Google Sheets, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
 
  
