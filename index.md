@@ -10,8 +10,8 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 
 ---
 
-### [Tableau Education Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
-[<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
+### [Tableau Education Project](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+[<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
 In this case study, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
 1. What schools are struggling with graduation rates the most?
 2. How does class size affect college admissions?
