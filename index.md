@@ -11,20 +11,21 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 ---
 
 ### [🔗 Tableau Education Project (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
-[<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+[<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/) [![Sheets Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)  
 In this case study, I analyzed the State of Massachusetts education data. The main focuses were:
    1. What schools are struggling with graduation rates the most?
    2. How does class size affect college admissions?
    3. What districts are excelling in early math?
   
 
-*📖 Source* [![Sheets Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)  
+
 
 ---
 
 ### [🔗 Excel Project (External Article)](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)  
 [<img src="images/excel/excel.JPG?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
+[![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
 Analyzed over 2,000 rows of customer behavioral markeing data using Google Sheets, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
 
  
-*📖 Source* [![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
+  
