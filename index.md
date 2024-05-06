@@ -17,9 +17,9 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 2. How does class size affect college admissions?
 3. What districts are excelling in early math?
 
-Access the dashboard:  
-[<img src="images/tableau/tableau_icon.png?raw=true"/>](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)
-
+[![Sheets Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)  
+*Access the source*
+ 
 ---
 
 ### [Excel Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
