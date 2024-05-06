@@ -26,5 +26,5 @@ In this case study, I analyzed the State of Massachusetts education data. The ma
 Analyzed over 2,000 rows of customer behavioral markeing data using Google Sheets, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
 
  
-[![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)
+[![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
 `Source` 
