@@ -12,13 +12,13 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 
 ### [Tableau Education Project](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
 [<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
-In this case study, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
-1. What schools are struggling with graduation rates the most?
-2. How does class size affect college admissions?
-3. What districts are excelling in early math?
+- In this case study, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
+   1. What schools are struggling with graduation rates the most?
+   2. How does class size affect college admissions?
+   3. What districts are excelling in early math?
 
 
-*Access the source*  
+- *Access the source*  
 [![Sheets Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)  
 
 ---
@@ -29,4 +29,4 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 
 
 - *Access the source*  
-   [![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
+[![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
