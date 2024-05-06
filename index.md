@@ -29,4 +29,4 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 
 
 - *Access the source*  
-  - [![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
+   [![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
