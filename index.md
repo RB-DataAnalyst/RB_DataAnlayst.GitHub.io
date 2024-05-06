@@ -27,5 +27,4 @@ Access the dashboard:
 Analyzed over 2,000 rows of customer behavioral markeing data using Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
 
 >[!NOTE]
->Access the spreadsheet:  
->[<img src="images/excel/sheets_icon.png?raw=true"/>](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)
+>Access the spreadsheet:  [<img src="images/excel/sheets_icon.png?raw=true"/>](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)
