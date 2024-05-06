@@ -22,3 +22,5 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 ### [Excel Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 [<img src="images/excel/excel.JPG?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 Analyzed over 2,000 rows of customer behavioral markeing data using Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
+
+- [<img src="images/excel/sheets_icon.png?raw=true"/>](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)
