@@ -83,21 +83,52 @@ section {
   width: 65%;
 }
 
-.card {
-    background-color: #fff; /* White background for the card */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* Subtle shadow for 3D effect */
-    margin: 20px 0; /* Margin for spacing between cards */
-    overflow: hidden; /* Ensures no content spills out */
-    padding: 20px; /* Padding inside the card */
-    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+.portfolio-intro h1, .portfolio-intro h2 {
+    text-align: center;
+    color: #333;
 }
 
-.card:hover {
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Darker shadow on hover for depth effect */
+.project-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+    overflow: hidden;
 }
-.card-content {
-    padding: 0; /* No additional padding needed, adjust if necessary */
+
+.project-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0; /* Rounded top corners */
 }
+
+.project-card h3 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.project-card p, .project-card ul {
+    text-align: left;
+    color: #666;
+}
+
+.project-card a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .project-card {
+        max-width: 95%;
+        padding: 10px;
+    }
+}
+
 
 
