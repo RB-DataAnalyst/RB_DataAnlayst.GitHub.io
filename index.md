@@ -12,7 +12,8 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 
 ### [🔗Tableau Education Project (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
 [<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
-- In this case study, I was prompted to analyze the State of Massachusetts education data. The main focuses were:
+- In this case study, I was prompted to analyze the State of Massachusetts education data.
+The main focuses were:
    1. What schools are struggling with graduation rates the most?
    2. How does class size affect college admissions?
    3. What districts are excelling in early math?
