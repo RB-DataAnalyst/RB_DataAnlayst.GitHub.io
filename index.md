@@ -23,7 +23,8 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 
 ---
 
-### [Excel Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/) <sub>External Article</sub>
+### [Excel Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)  
+<sub>External Article</sub>
 [<img src="images/excel/excel.JPG?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 - Analyzed over 2,000 rows of customer behavioral markeing data using Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
 
