@@ -1,7 +1,5 @@
 # Welcome to My Portfolio
-
 ## 👇 Learn About My Projects 👇
----
 
 ### [SQL Financial Project](/projects/bank.md)
 [<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/projects/bank.md)
@@ -19,10 +17,8 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 2. How does class size affect college admissions?
 3. What districts are excelling in early math?
 
+---
+
 ### [Excel Project](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 [<img src="images/excel/excel.JPG?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
-Analyzed over 2,000 rows of customer behavioral markeing data using 
-Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively 
-evaluate campaign success levels.  
-THis is the dynamic content. I think I should just convert to html then I
- can style it more effectively 
+Analyzed over 2,000 rows of customer behavioral markeing data using Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
