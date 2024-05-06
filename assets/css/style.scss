@@ -50,7 +50,6 @@ header {
   color: white;
   border: 2px solid white; 
   border-radius: 12px; 
-  margin: 1px;
 }
 
 .skill-section .skill-tags h3 {
@@ -84,7 +83,6 @@ section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-    margin: 1px;
     overflow: hidden;
     transition: box-shadow 0.3s ease;
     width: 65%;
@@ -94,8 +92,6 @@ section {
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
     background: #f4f4f4;
     color: #333;
 }
