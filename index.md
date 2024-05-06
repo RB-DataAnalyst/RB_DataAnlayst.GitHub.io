@@ -17,8 +17,7 @@ In this case study, I analyzed the State of Massachusetts education data. The ma
    2. How does class size affect college admissions?
    3. What districts are excelling in early math?
 
-[![Tableau Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)  
-*Tableau Dashboard*
+[![Tableau Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)*Tableau Dashboard*
   
 
 
