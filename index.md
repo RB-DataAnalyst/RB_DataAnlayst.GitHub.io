@@ -18,7 +18,7 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 3. What districts are excelling in early math?
 
 
-*Access the source*
+*Access the source*  
 [![Sheets Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link)  
 
 ---
@@ -28,5 +28,5 @@ In this case study, I was prompted to analyze the State of Massachusetts educati
 Analyzed over 2,000 rows of customer behavioral markeing data using Excel, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
 
 
-*Access the source*
+*Access the source*  
 [![Sheets Icon](images/excel/sheets_icon.png?raw=true)](https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing)  
