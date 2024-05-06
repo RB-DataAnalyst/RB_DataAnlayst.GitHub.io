@@ -79,15 +79,39 @@ header {
     transition: background-color 0.3s;  
 }
 
-body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background: #f4f4f4;
+/* Styling Headers */
+h1, h2, h3 {
     color: #333;
+    text-align: center; /* Centering all headers */
 }
 
+h1 {
+    font-size: 2.5em; /* Large size for main title */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em; /* Smaller than h1 but prominent */
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 1.5em; /* Smaller, for section titles */
+    margin-top: 20px; /* Adding space before each new section */
+    margin-bottom: 10px;
+}
+
+/* Styling Paragraphs */
+p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    text-align: justify; /* Justifying paragraphs */
+    margin-bottom: 1em; /* Space after paragraphs */
+}
+
+/* Styling Links */
 a {
     color: #007bff;
     text-decoration: none;
@@ -97,44 +121,20 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Styling Images */
 img {
     max-width: 100%;
     height: auto;
-}
-
-h1 {
-    color: #333;
-    text-align: center;
-    margin-top: 20px;
-}
-
-h2 {
-    color: #555;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-h3 {
-    color: #666;
-    font-size: 1.25em;
-}
-
-.project {
-    background: white;
+    display: block;
+    margin: 10px auto; /* Center images and add space */
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 15px;
-    margin: 20px;
-    width: auto;
 }
 
-.project img {
-    width: 100%;
-    height: auto;
-    border-radius: 5px;
+/* Styling Lists */
+ul, ol {
+    padding-left: 20px; /* Proper indentation for lists */
 }
 
-.project h3 {
-    margin-top: 0.5em;
+li {
+    line-height: 1.6; /* Improved readability for list items */
 }
-
