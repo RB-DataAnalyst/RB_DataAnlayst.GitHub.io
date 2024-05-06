@@ -19,6 +19,7 @@ In this case study, I analyzed the State of Massachusetts education data. The ma
 
 
 | [![Tableau Icon](images/tableau/tableau_icon.png?raw=true)](https://public.tableau.com/views/EducationProject_17145247112430/MassachusettsEducationOverview?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link) | 
+|---------------------:|
 | *Tableau Dashboard* |
 
 
