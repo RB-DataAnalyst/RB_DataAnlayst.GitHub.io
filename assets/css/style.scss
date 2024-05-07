@@ -119,11 +119,11 @@ header {
 	/* New background color */
 	border-radius: 15px;
 	/* New rounded corners for the container */
-	padding: 2px;
+	padding: 5px;
 	/* Padding inside the container */
-	margin-top: 2px;
+	margin-top: 5px;
 	/* Adds space above the container */
-	margin-bottom: 2px;
+	margin-bottom: 5px;
 }
 
 .project-skill-tag {
@@ -157,19 +157,19 @@ header {
 	padding-left: 20px;
 }
 
-.index-container {
+.index-header-container {
     text-align: center; /* Centers the text inside the container */
     margin-top: 20px; /* Adds space above the container */
     margin-bottom: 20px; /* Adds space below the container */
 }
 
-.index-container h1 {
+.index-header-container h1 {
     font-size: 32px; /* Large font size for the main title */
     color: #333; /* Dark grey color for better readability */
     margin-bottom: 10px; /* Adds a small space between the main title and subtitle */
 }
 
-.index-container h2 {
+.index-header-container h2 {
     font-size: 24px; /* Slightly smaller font size for the subtitle */
     color: #555; /* Lighter grey color for the subtitle */
 }
