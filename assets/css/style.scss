@@ -154,3 +154,21 @@ header {
 	margin-top: 0;
 	padding-left: 20px;
 }
+
+.index-container {
+    text-align: center; /* Centers the text inside the container */
+    margin-top: 20px; /* Adds space above the container */
+    margin-bottom: 20px; /* Adds space below the container */
+}
+
+.index-container h1 {
+    font-size: 32px; /* Large font size for the main title */
+    color: #333; /* Dark grey color for better readability */
+    margin-bottom: 10px; /* Adds a small space between the main title and subtitle */
+}
+
+.index-container h2 {
+    font-size: 24px; /* Slightly smaller font size for the subtitle */
+    color: #555; /* Lighter grey color for the subtitle */
+}
+
