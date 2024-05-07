@@ -94,6 +94,10 @@ header {
 .project-skills {
     display: flex;
     flex-wrap: wrap;  /* Allows tags to wrap to the next line on smaller screens */
+    background-color: #f0f0f0;  /* New background color */
+    border-radius: 15px;  /* New rounded corners for the container */
+    padding: 10px;  /* Padding inside the container */
+    margin-top: 10px;  /* Adds space above the container */
 }
 
 .project-skill-tag {
