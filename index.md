@@ -6,7 +6,7 @@
 
 <!-- Project 1: World Bank IDA Credits and Grants -->
 <div class="project-card">
-    <h3><a href="/projects/bank.html">🔍 2022 World Bank IDA Credits and Grants</a></h3>
+    <h3><a href="/projects/bank">🔍 2022 World Bank IDA Credits and Grants</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills Utilized:</span>
         <div class="project-skills">
@@ -15,7 +15,7 @@
             <span class="project-skill-tag">Data Manipulation</span> 
         </div>
     </div>
-    <a href="/projects/bank.html">
+    <a href="/projects/bank">
         <img src="images/SQL_Bank/SQLproject1.png?raw=true" alt="Project Image"/>
     </a>
     <p>In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:</p>
