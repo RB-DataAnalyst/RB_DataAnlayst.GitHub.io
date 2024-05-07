@@ -28,7 +28,7 @@
 
 <!-- Project 2: Massachusetts Education Metrics -->
 <div class="project-card">
-    <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/" target="_blank">🔗 A Journey Through Massachusetts Education Metrics (External Article)</a></h3>
+    <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/" target="_blank">🔗 A Journey Through Massachusetts Education Metrics</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills:</span>
         <div class="project-skills">
@@ -51,7 +51,7 @@
 <!-- Project 3: The Role of Analytics in Food Delivery Success -->
 <div class="project-card">
     <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/" target="_blank">🔗 The Role of Analytics in Food Delivery Success 
-        (External Article)</a></h3>
+    </a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills:</span>
         <div class="project-skills">
