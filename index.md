@@ -15,7 +15,7 @@
             <span class="project-skill-tag">Data Manipulation</span> 
         </div>
     </div>
-    <a href="/projects/bank>
+    <a href="/projects/bank">
         <img src="images/SQL_Bank/SQLproject1.png?raw=true" alt="Project Image"/>
     </a>
     <p>In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:</p>
