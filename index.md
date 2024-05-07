@@ -54,9 +54,10 @@
     <div class="project-skills-container">
         <span class="project-skills-label">Skills Utilized:</span>
         <div class="project-skills">
+            <span class="project-skill-tag">Excel</span>
             <span class="project-skill-tag">VLOOKUPS</span>
             <span class="project-skill-tag">Pivot Tables</span>
-            <span class="project-skill-tag">Data Visualization</span> 
+            <span class="project-skill-tag">Charts</span> 
         </div>
     </div>
     <a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/">
