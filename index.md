@@ -7,7 +7,7 @@
 
 <!-- Project 1: World Bank IDA Credits and Grants -->
 <div class="project-card">
-    <h3><a href="/projects/bank.md">2022 World Bank IDA Credits and Grants</a></h3>
+    <h3><a href="/projects/bank.md">🔍 2022 World Bank IDA Credits and Grants</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills Utilized:</span>
         <div class="project-skills">
@@ -29,7 +29,7 @@
 
 <!-- Project 2: Massachusetts Education Metrics -->
 <div class="project-card">
-    <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/">A Journey Through Massachusetts Education Metrics (External Article)</a></h3>
+    <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/">🔗 A Journey Through Massachusetts Education Metrics (External Article)</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills Utilized:</span>
         <div class="project-skills">
@@ -51,7 +51,7 @@
 
 <!-- Project 3: The Role of Analytics in Food Delivery Success -->
 <div class="project-card">
-    <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/">The Role of Analytics in Food Delivery Success (External Article)</a></h3>
+    <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/">🔗 The Role of Analytics in Food Delivery Success (External Article)</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills Utilized:</span>
         <div class="project-skills">
