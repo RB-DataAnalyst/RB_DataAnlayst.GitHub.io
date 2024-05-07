@@ -63,4 +63,5 @@
         <img src="images/excel/excel.JPG?raw=true" alt="Project Image"/>
     </a>
     <p>Analyzed over 2,000 rows of customer behavioral marketing data using Google Sheets to effectively evaluate campaign success levels.</p>
+    <a href="https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing">🔗 Access the spreadsheet here.</a>
 </div>
