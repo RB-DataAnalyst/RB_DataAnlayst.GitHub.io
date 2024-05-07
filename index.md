@@ -1,4 +1,6 @@
-# Welcome to My Portfolio
+# Welcome to My Data Analytics Portfolio  
+<img src="images/background.png?raw=true"/>
+
 ## 👇 Learn About My Projects 👇
 
 ### [🔍 SQL Financial Project](/projects/bank.md)
