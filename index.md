@@ -25,11 +25,14 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 ---
 
 #### [🔗 Tableau Education Project (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
-#### Skills Utilized: 
-<div class="project-skills">
-    <span class="project-skill-tag">Data Visualization</span>
-    <span class="project-skill-tag">Dashboard</span>
-    <span class="project-skill-tag">Data Manipulation</span> 
+
+<div class="project-skills-container">
+    <span class="project-skills-label">Skills Utilized:</span>
+    <div class="project-skills">
+        <span class="project-skill-tag">Tableau</span>
+        <span class="project-skill-tag">Data Visualization</span>
+        <span class="project-skill-tag">Dashboards</span> 
+    </div>
 </div>
 
 [<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/) 
