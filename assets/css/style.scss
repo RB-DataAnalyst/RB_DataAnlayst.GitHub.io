@@ -80,33 +80,77 @@ header {
     transition: background-color 0.3s;  
 }
 
+/* CSS Styles for Project Cards */
+.project-card {
+	border: 1px solid #ccc;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+}
+
+.project-card h3 {
+	margin-top: 0;
+}
+
 .project-skills-container {
-    display: flex;  /* Establishes a flex container */
-    align-items: center;  /* Vertically centers the items in the container */
-    flex-wrap: wrap;  /* Allows items to wrap onto the next line if needed */
+	display: flex;
+	/* Establishes a flex container */
+	align-items: center;
+	/* Vertically centers the items in the container */
+	flex-wrap: wrap;
+	/* Allows items to wrap onto the next line if needed */
 }
 
 .project-skills-label {
-    margin-right: 10px;  /* Adds some space between the label and the tags */
-    font-weight: bold;  /* Optionally makes the label bold */
+	margin-right: 10px;
+	/* Adds some space between the label and the tags */
+	font-weight: bold;
+	/* Optionally makes the label bold */
 }
 
 .project-skills {
-    display: flex;
-    flex-wrap: wrap;  /* Allows tags to wrap to the next line on smaller screens */
-    background-color: #f0f0f0;  /* New background color */
-    border-radius: 15px;  /* New rounded corners for the container */
-    padding: 5px;  /* Padding inside the container */
-    margin-top: 5px;  /* Adds space above the container */
-    margin-bottom: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	/* Allows tags to wrap to the next line on smaller screens */
+	background-color: #f0f0f0;
+	/* New background color */
+	border-radius: 15px;
+	/* New rounded corners for the container */
+	padding: 5px;
+	/* Padding inside the container */
+	margin-top: 5px;
+	/* Adds space above the container */
+	margin-bottom: 5px;
 }
 
 .project-skill-tag {
-    background-color: #007bff;  /* Blue background */
-    color: white;  /* White text */
-    border-radius: 20px;  /* Rounded corners */
-    padding: 5px 10px;  /* Padding inside each tag */
-    margin: 5px;  /* Space between tags */
-    font-size: 14px;
-    white-space: nowrap;  /* Prevents breaking into multiple lines */
+	background-color: #007bff;
+	/* Blue background */
+	color: white;
+	/* White text */
+	border-radius: 20px;
+	/* Rounded corners */
+	padding: 5px 10px;
+	/* Padding inside each tag */
+	margin: 5px;
+	/* Space between tags */
+	font-size: 14px;
+	white-space: nowrap;
+	/* Prevents breaking into multiple lines */
+}
+
+.project-card img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.project-card p {
+	margin-top: 0;
+}
+
+.project-card ul {
+	margin-top: 0;
+	padding-left: 20px;
 }
