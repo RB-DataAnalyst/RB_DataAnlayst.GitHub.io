@@ -8,7 +8,7 @@
 <div class="project-card">
     <h3><a href="/projects/bank">🔍 2022 World Bank IDA Credits and Grants</a></h3>
     <div class="project-skills-container">
-        <span class="project-skills-label">Skills Utilized:</span>
+        <span class="project-skills-label">Skills:</span>
         <div class="project-skills">
             <span class="project-skill-tag">SQL</span>
             <span class="project-skill-tag">Data Analysis</span>
@@ -30,7 +30,7 @@
 <div class="project-card">
     <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/">🔗 A Journey Through Massachusetts Education Metrics (External Article)</a></h3>
     <div class="project-skills-container">
-        <span class="project-skills-label">Skills Utilized:</span>
+        <span class="project-skills-label">Skills:</span>
         <div class="project-skills">
             <span class="project-skill-tag">Tableau</span>
             <span class="project-skill-tag">Data Visualization</span>
@@ -53,7 +53,7 @@
     <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/">🔗 The Role of Analytics in Food Delivery Success 
         (External Article)</a></h3>
     <div class="project-skills-container">
-        <span class="project-skills-label">Skills Utilized:</span>
+        <span class="project-skills-label">Skills:</span>
         <div class="project-skills">
             <span class="project-skill-tag">Excel</span>
             <span class="project-skill-tag">VLOOKUPS</span>
