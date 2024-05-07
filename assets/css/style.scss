@@ -80,19 +80,28 @@ header {
     transition: background-color 0.3s;  
 }
 
+.project-skills-container {
+    display: flex;  /* Establishes a flex container */
+    align-items: center;  /* Vertically centers the items in the container */
+    flex-wrap: wrap;  /* Allows items to wrap onto the next line if needed */
+}
+
+.project-skills-label {
+    margin-right: 10px;  /* Adds some space between the label and the tags */
+    font-weight: bold;  /* Optionally makes the label bold */
+}
+
 .project-skills {
-    display: flex;  /* Aligns tags in a row */
-    flex-wrap: wrap;  /* Allows tags to wrap onto the next line */
-    padding: 0;
-    margin: 0;
+    display: flex;
+    flex-wrap: wrap;  /* Allows tags to wrap to the next line on smaller screens */
 }
 
 .project-skill-tag {
-    background-color: #007bff;  /* Bright blue background */
+    background-color: #007bff;  /* Blue background */
     color: white;  /* White text */
-    border-radius: 20px;  /* Rounded corners for tag-like appearance */
-    padding: 5px 10px;  /* Padding inside the tag */
+    border-radius: 20px;  /* Rounded corners */
+    padding: 5px 10px;  /* Padding inside each tag */
     margin: 5px;  /* Space between tags */
-    font-size: 14px;  /* Appropriate font size for readability */
-    white-space: nowrap;  /* Ensures the text does not break into multiple lines */
+    font-size: 14px;
+    white-space: nowrap;  /* Prevents breaking into multiple lines */
 }
