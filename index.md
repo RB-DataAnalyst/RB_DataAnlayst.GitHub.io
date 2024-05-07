@@ -1,4 +1,4 @@
-<div class="header-container">
+<div class="index-container">
     <h1>Welcome to My Data Analytics Portfolio</h1>  
     <img src="images/background.png?raw=true"/>
     <h2>👇 Learn About My Projects 👇</h2>
