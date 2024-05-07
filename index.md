@@ -5,7 +5,15 @@
 
 ### 👇 Learn About My Projects 👇
 
-#### [🔍 SQL Financial Project](/projects/bank.md)
+#### [🔍 SQL Financial Project](/projects/bank.md)  
+#### Skills Utilized: 
+<div class="project-skills">
+    <span class="project-skill-tag">SQL</span>
+    <span class="project-skill-tag">Data Analysis</span>
+    <span class="project-skill-tag">Visualization</span>
+    <span class="project-skill-tag">Financial Modeling</span>
+</div>
+
 [<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/projects/bank.md)
 In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:
 1. Detected significant financial obligations in several countries, suggesting targeted areas for potential economic assistance.
