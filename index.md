@@ -1,9 +1,8 @@
-## Welcome to My Data Analytics Portfolio  
-<img src="images/background.png?raw=true"/>
-
----
-
-### 👇 Learn About My Projects 👇
+<div class="header-container">
+    <h1>Welcome to My Data Analytics Portfolio</h1>  
+    <img src="images/background.png?raw=true"/>
+    <h2>👇 Learn About My Projects 👇</h2>
+</div>
 
 <!-- Project 1: World Bank IDA Credits and Grants -->
 <div class="project-card">
