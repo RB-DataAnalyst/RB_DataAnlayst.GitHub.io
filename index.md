@@ -11,7 +11,6 @@
     <span class="project-skill-tag">SQL</span>
     <span class="project-skill-tag">Data Analysis</span>
     <span class="project-skill-tag">Data Manipulation</span> 
-    <span class="project-skill-tag">Reporting and Communication</span>
 </div>
 
 [<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/projects/bank.md)
