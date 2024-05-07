@@ -1,9 +1,9 @@
-# Welcome to My Data Analytics Portfolio  
+## Welcome to My Data Analytics Portfolio  
 <img src="images/background.png?raw=true"/>
 
-## 👇 Learn About My Projects 👇
+### 👇 Learn About My Projects 👇
 
-### [🔍 SQL Financial Project](/projects/bank.md)
+#### [🔍 SQL Financial Project](/projects/bank.md)
 [<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/projects/bank.md)
 In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:
 1. Detected significant financial obligations in several countries, suggesting targeted areas for potential economic assistance.
@@ -12,7 +12,7 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 
 ---
 
-### [🔗 Tableau Education Project (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+#### [🔗 Tableau Education Project (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
 [<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/) 
 In this case study, I analyzed the State of Massachusetts education data. The main focuses were:
    1. What schools are struggling with graduation rates the most?
@@ -24,7 +24,7 @@ In this case study, I analyzed the State of Massachusetts education data. The ma
 
 ---
 
-### [🔗 Excel Project (External Article)](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)  
+#### [🔗 Excel Project (External Article)](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)  
 [<img src="images/excel/excel.JPG?raw=true"/>](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)
 Analyzed over 2,000 rows of customer behavioral markeing data using Google Sheets, employing VLOOKUPS, Pivot Tables, and charts to effectively evaluate campaign success levels.
 
