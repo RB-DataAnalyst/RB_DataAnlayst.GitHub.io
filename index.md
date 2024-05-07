@@ -28,7 +28,7 @@
 
 <!-- Project 2: Massachusetts Education Metrics -->
 <div class="project-card">
-    <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/"target="_blank">🔗 A Journey Through Massachusetts Education Metrics (External Article)</a></h3>
+    <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/>🔗 A Journey Through Massachusetts Education Metrics (External Article)</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills:</span>
         <div class="project-skills">
@@ -37,7 +37,7 @@
             <span class="project-skill-tag">Dashboards</span> 
         </div>
     </div>
-    <a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/"target="_blank">
+    <a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/>
         <img src="images/tableau/tableau-education.png?raw=true" alt="Project Image"/>
     </a>
     <p>In this case study, I analyzed the State of Massachusetts education data. The main focuses were:</p>
@@ -50,7 +50,7 @@
 
 <!-- Project 3: The Role of Analytics in Food Delivery Success -->
 <div class="project-card">
-    <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/"target="_blank">🔗 The Role of Analytics in Food Delivery Success 
+    <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/>🔗 The Role of Analytics in Food Delivery Success 
         (External Article)</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label">Skills:</span>
@@ -61,7 +61,7 @@
             <span class="project-skill-tag">Charts</span> 
         </div>
     </div>
-    <a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/"target="_blank">
+    <a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/>
         <img src="images/excel/excel.JPG?raw=true" alt="Project Image"/>
     </a>
     <p>Analyzed over 2,000 rows of customer behavioral marketing data using Google Sheets to effectively evaluate campaign success levels.</p>
