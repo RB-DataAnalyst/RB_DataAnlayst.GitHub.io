@@ -5,7 +5,7 @@
 
 ### 👇 Learn About My Projects 👇
 
-#### [🔍 SQL Financial Project](/projects/bank.md)  
+#### [🔍 2022 World Bank IDA Credits and Grants](/projects/bank.md)  
  
 <div class="project-skills-container">
     <span class="project-skills-label">Skills Utilized:</span>
@@ -24,7 +24,7 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 
 ---
 
-#### [🔗 Tableau Education Project (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+#### [🔗 A Journey Through Massachusetts Education Metrics (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
 
 <div class="project-skills-container">
     <span class="project-skills-label">Skills Utilized:</span>
@@ -46,7 +46,7 @@ In this case study, I analyzed the State of Massachusetts education data. The ma
 
 ---
 
-#### [🔗 Excel Project (External Article)](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)  
+#### [🔗 The Role of Analytics in Food Delivery Success (External Article)](https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/)  
 
 <div class="project-skills-container">
     <span class="project-skills-label">Skills Utilized:</span>
