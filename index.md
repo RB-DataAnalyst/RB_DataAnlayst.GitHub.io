@@ -6,11 +6,14 @@
 ### 👇 Learn About My Projects 👇
 
 #### [🔍 SQL Financial Project](/projects/bank.md)  
-#### Skills Utilized: 
-<div class="project-skills">
-    <span class="project-skill-tag">SQL</span>
-    <span class="project-skill-tag">Data Analysis</span>
-    <span class="project-skill-tag">Data Manipulation</span> 
+ 
+<div class="project-skills-container">
+    <span class="project-skills-label">Skills Utilized:</span>
+    <div class="project-skills">
+        <span class="project-skill-tag">SQL</span>
+        <span class="project-skill-tag">Data Analysis</span>
+        <span class="project-skill-tag">Data Manipulation</span> 
+    </div>
 </div>
 
 [<img src="images/SQL_Bank/SQLproject1.png?raw=true"/>](/projects/bank.md)
@@ -22,6 +25,13 @@ In this project, I analyze the World Bank's IDA Statement of Credits and Grants 
 ---
 
 #### [🔗 Tableau Education Project (External Article)](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/)
+#### Skills Utilized: 
+<div class="project-skills">
+    <span class="project-skill-tag">Data Visualization</span>
+    <span class="project-skill-tag">Dashboard</span>
+    <span class="project-skill-tag">Data Manipulation</span> 
+</div>
+
 [<img src="images/tableau/tableau-education.png?raw=true"/>](https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/) 
 In this case study, I analyzed the State of Massachusetts education data. The main focuses were:
    1. What schools are struggling with graduation rates the most?
