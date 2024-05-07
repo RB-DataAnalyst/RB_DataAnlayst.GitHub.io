@@ -79,3 +79,20 @@ header {
     font-family: Arial, sans-serif;  
     transition: background-color 0.3s;  
 }
+
+.project-skills {
+    display: flex;  /* Aligns tags in a row */
+    flex-wrap: wrap;  /* Allows tags to wrap onto the next line */
+    padding: 0;
+    margin: 0;
+}
+
+.project-skill-tag {
+    background-color: #007bff;  /* Bright blue background */
+    color: white;  /* White text */
+    border-radius: 20px;  /* Rounded corners for tag-like appearance */
+    padding: 5px 10px;  /* Padding inside the tag */
+    margin: 5px;  /* Space between tags */
+    font-size: 14px;  /* Appropriate font size for readability */
+    white-space: nowrap;  /* Ensures the text does not break into multiple lines */
+}
