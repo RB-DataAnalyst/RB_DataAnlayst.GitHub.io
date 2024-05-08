@@ -53,6 +53,8 @@ ORDER BY length_of_stay;
 ```
 <img src="../images/SQL_Bank/SFP1.JPG?raw=true"/>
 
+This pattern is important for understanding hospital workflows and patient turnover.
+
 ---
 ### 3. Comparative Analysis
 #### 3.1 Medical Specialties and Procedures
@@ -69,8 +71,10 @@ HAVING count > 50 AND avg_procedures > 2.5
 ORDER BY avg_procedures DESC;
 ```
 <img src="../images/SQL_Bank/SFP2.JPG?raw=true"/>  
+This insight enhances understanding of procedural frequencies and aids in the hypothetical allocation of resources within educational simulations.
 
 ---
+
 #### 3.2 Potential Racial Disparities in Treatment
 Explore differences in the number of laboratory procedures performed across different races, revealing that there are only nominal differnces between racical demographics. 
 ```sql
@@ -85,6 +89,8 @@ GROUP BY race
 ORDER BY avg_num_lab_procedures DESC;
 ```
 <img src="../images/SQL_Bank/SFP4.JPG?raw=true"/>  
+
+While the differences in laboratory procedures among racial groups were nominal, it remains essential to continue monitoring and studying these trends to ensure healthcare equity and prevent any subtle disparities from escalating.
 
 --- 
 ### 4 Correlational Analysis
@@ -105,6 +111,8 @@ ORDER BY avg_time DESC;
 ```
 <img src="../images/SQL_Bank/SFP3.JPG?raw=true"/>  
 
+This relationship is analyzed to show how to detect and interpret healthcare data patterns.
+
 ---
 
 ### 5 Targeted Analysis
@@ -121,6 +129,8 @@ WHERE admission_type_id = 1
 AND time_in_hospital < (SELECT avg_hospital_time FROM avg_time);
 ```
 <img src="../images/SQL_Bank/SFP5.JPG?raw=true"/>  
+
+This finding is used to discuss patient flow and hospital efficiency, providing a learning tool for understanding hospital operations through data analysis.
 
 ---
 
