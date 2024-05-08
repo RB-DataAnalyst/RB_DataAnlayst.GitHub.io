@@ -23,7 +23,7 @@
     <ul>
         <li>Most diabetic patients have short hospital stays, typically ranging from 1 to 4 days, highlighting efficient initial treatments but raising questions about follow-up care.</li>
         <li>Medical specialties such as thoracic and cardiovascular surgery frequently require a higher number of procedures, pointing to areas of resource-intensive care.</li>
-        <li>Identified nominal racial disparities in the number of laboratory procedures performed, emphasizing the importance of continuous monitoring to ensure healthcare equity.</li>
+        <li>A direct correlation was identified between the number of laboratory procedures and the length of hospital stays</li>
     </ul>
 </div>
 
