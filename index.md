@@ -4,14 +4,37 @@
     <h2>👇 Learn About My Projects 👇</h2>
 </div>
 
-<!-- Project 1: World Bank IDA Credits and Grants -->
+<!-- Project 4: SQL Healthcare-->
+<div class="project-card">
+    <h3><a href="/projects/healthcare">🔍 Exploratory Data Analysis of Hospital Care for Diabetic Patients</a></h3>
+    <div class="project-skills-container">
+        <span class="project-skills-label"></span>
+        <div class="project-skills">
+            <span class="project-skill-tag">MySQL</span>
+            <span class="project-skill-tag">CTEs</span>
+            <span class="project-skill-tag">Data Analysis</span> 
+            <span class="project-skill-tag">Healthcare</span>
+        </div>
+    </div>
+    <a href="/projects/healthcare">
+        <img src="images/SQL_health/SQL_health.png?raw=true" alt="Project Image"/>
+    </a>
+    <p>In this project, I dive into a comprehensive dataset spanning ten years of clinical care for diabetic patients across 130 US hospitals. Key insights include:</p>
+    <ul>
+        <li>Most diabetic patients have short hospital stays, typically ranging from 1 to 4 days, highlighting efficient initial treatments but raising questions about follow-up care.</li>
+        <li>Medical specialties such as thoracic and cardiovascular surgery frequently require a higher number of procedures, pointing to areas of resource-intensive care.</li>
+        <li>Identified nominal racial disparities in the number of laboratory procedures performed, emphasizing the importance of continuous monitoring to ensure healthcare equity.</li>
+    </ul>
+</div>
+
+<!-- Project 3: SQL Finance -->
 <div class="project-card">
     <h3><a href="/projects/bank">🔍 2022 World Bank IDA Credits and Grants</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
         <div class="project-skills">
             <span class="project-skill-tag">SQL</span>
-            <span class="project-skill-tag">Data Analysis</span>
+            <span class="project-skill-tag">Finance</span>
             <span class="project-skill-tag">Data Manipulation</span> 
         </div>
     </div>
@@ -26,7 +49,7 @@
     </ul>
 </div>
 
-<!-- Project 2: Massachusetts Education Metrics -->
+<!-- Project 2: Tableau Education -->
 <div class="project-card">
     <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/" target="_blank">🔗 A Journey Through Massachusetts Education Metrics</a></h3>
     <div class="project-skills-container">
@@ -34,7 +57,8 @@
         <div class="project-skills">
             <span class="project-skill-tag">Tableau</span>
             <span class="project-skill-tag">Data Visualization</span>
-            <span class="project-skill-tag">Dashboards</span> 
+            <span class="project-skill-tag">Dashboards</span>
+            <span class="project-skill-tag">Education</span> 
         </div>
     </div>
     <a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/" target="_blank">
@@ -48,7 +72,7 @@
     </ol>
 </div>
 
-<!-- Project 3: The Role of Analytics in Food Delivery Success -->
+<!-- Project 1: Excel Food Delivery -->
 <div class="project-card">
     <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/" target="_blank">🔗 The Role of Analytics in Food Delivery Success 
     </a></h3>
