@@ -102,6 +102,28 @@ FROM health
 WHERE admission_type_id = 1
 AND time_in_hospital < (SELECT avg_hospital_time FROM avg_time);
 
+-- Calculate aggregates where patients were admitted through emergency but stayed shorter than the average duration.
+-- Calculate the average hospital stay duration
+WITH avg_time AS (
+    SELECT AVG(time_in_hospital) AS avg_hospital_time
+    FROM health
+)
+-- Count patients staying less and more than the average duration and calculate percentages
+SELECT 
+    ROUND(100.0 * SUM(CASE
+                WHEN time_in_hospital < avg_hospital_time THEN 1
+                ELSE 0
+            END) / COUNT(*),
+            2) AS pct_below_average_stays,
+    ROUND(100.0 * SUM(CASE
+                WHEN time_in_hospital >= avg_hospital_time THEN 1
+                ELSE 0
+            END) / COUNT(*),
+            2) AS pct_above_or_equal_average_stays
+FROM
+    health,
+    avg_time;
+
 -- Data summary query
 -- Generate a summary for the top 50 patients based on the number of medications and lab procedures.
 SELECT 
