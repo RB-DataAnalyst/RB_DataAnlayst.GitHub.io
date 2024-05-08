@@ -125,18 +125,11 @@ AND time_in_hospital < (SELECT avg_hospital_time FROM avg_time);
 ---
 
 ## Conclusion
-This analysis of the World Bank's IDA data for 2022 provided crucial insights into the financial dynamics of countries and regions interacting with international development funds:
-1. **Substantial Debts in Key Nations:**
-Kenya and Nigeria emerged as countries with the most significant financial obligations to the IDA,
-indicating potential areas for focused economic support or debt relief interventions.
-2. **High Engagement in Developmental Activities:**
-Countries like India, Bangladesh, and Pakistan showed high numbers of transactions, illustrating
-their active participation in development projects. This suggests a robust engagement with the IDA in striving for economic development and poverty alleviation.
-3. **Regional Financial Commitments:**
-South Asia and Eastern and Southern Africa were identified as regions with the highest total amounts due, highlighting where the IDA’s efforts are most concentrated and perhaps where the needs are greatest.
-4. **Varied Borrowing Costs:**
-The analysis also revealed differences in service charge rates across regions, with Europe and Central Asia facing the highest rates, which could affect the terms of financial aid and loan agreements in these regions.
+This project unveiled several insights into the healthcare management of diabetic patients:
+- **Short Hospital Stays:** The majority of patients had brief hospital admissions, underscoring the efficiency of initial treatments but also raising questions about the adequacy of care for preventing readmissions.
+- **Specialty Resource Utilization:** High procedural demands were notable in specialties such as thoracic and cardiovascular surgery, suggesting areas that might benefit from targeted resource allocation.
+- **Correlation of Lab Procedures with Hospital Stay:** A direct correlation was observed between the number of lab procedures and the length of hospital stays, highlighting the complexity of cases managed and the resources utilized.
 
-SQL's capability to efficiently filter and analyze data over millions of records enabled me to uncover meaningful financial insights across various countries. The process highlighted the importance of data preparation and the power of SQL in extracting actionable insights from the World Bank's extensive datasets.
+Reflecting on this project, I significantly advanced my SQL skills by navigating the complexities of a healthcare dataset focused on diabetes care. The process involved meticulous data cleaning and preparation, including correcting data types and managing missing values, which were foundational for effective analysis. Utilizing advanced SQL techniques like subqueries, CTEs, and complex joins deepened my understanding of real-world data applications. Engaging with healthcare data underscored the potential of data analytics in improving operational efficiencies, though the scope remained educational. Overall, this experience has not only bolstered my analytical capabilities but also piqued my interest in the intersection of data science and healthcare.
 
 **[Back to Projects](../index.md)** 
