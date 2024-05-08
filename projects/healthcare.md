@@ -71,9 +71,8 @@ ORDER BY avg_procedures DESC;
 <img src="../images/SQL_Bank/SFP2.JPG?raw=true"/>  
 
 ---
-
-#### 2.3 Lab Procedures and Hospital Stay Length
-Investigated the relationship between the number of lab procedures and the length of hospital stays, finding a direct correlation where more procedures often meant longer stays.
+#### 2.3 Potential Racial Disparities in Treatment
+Explore differences in the number of laboratory procedures performed across different races, revealing that there are only nominal differnces between racical demographics. 
 ```sql
 SELECT 
     race,
@@ -85,30 +84,29 @@ FROM
 GROUP BY race
 ORDER BY avg_num_lab_procedures DESC;
 ```
+<img src="../images/SQL_Bank/SFP4.JPG?raw=true"/>  
+
+--- 
+
+#### 2.4 Lab Procedures and Hospital Stay Length
+Investigated the relationship between the number of lab procedures and the length of hospital stays, finding a direct correlation where more procedures often meant longer stays.
+```sql
+SELECT 
+    ROUND(AVG(time_in_hospital), 1) AS avg_time,
+    CASE
+        WHEN num_lab_procedures >= 0 AND num_lab_procedures < 25 THEN 'few'
+        WHEN num_lab_procedures >= 25 AND num_lab_procedures < 55 THEN 'average'
+        ELSE 'many'
+    END AS procedure_frequency
+FROM
+    health
+GROUP BY procedure_frequency
+ORDER BY avg_time DESC;
+```
 <img src="../images/SQL_Bank/SFP3.JPG?raw=true"/>  
 
 ---
 
-#### 2.4 Total Transactions Overall:
-Quantify the total number of transactions recorded in the latest dataset snapshot, offering a macroscopic view of the activity level across all countries with the IDA.
-```sql
-SELECT 
-  COUNT(*) AS total_transactions 
-FROM 
-  banking_data 
-WHERE 
-  "End of Period" = (
-    SELECT 
-      MAX("End of Period") 
-    FROM 
-      banking_data
-  );
-
-```
-<img src="../images/SQL_Bank/SFP4.JPG?raw=true"/>  
-With 9,991 transactions, the data reflect a high level of global engagement with the IDA, indicating extensive developmental efforts.
-
----
 
 #### 2.5 Total Transactions by Country:
 Determine which countries have the highest number of transactions with the IDA, providing insight into which countries are most actively engaging with the World Bank in terms of the number of projects or financial interactions.
