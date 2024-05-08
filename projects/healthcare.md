@@ -54,8 +54,8 @@ ORDER BY length_of_stay;
 <img src="../images/SQL_Bank/SFP1.JPG?raw=true"/>
 
 ---
-
-#### 2.2 Medical Specialties and Procedures
+### 3. Comparative Analysis
+#### 3.1 Medical Specialties and Procedures
 Analyzed which medical specialties conducted more procedures on average, pointing to specific fields like thoracic and cardiovascular surgery as high-resource areas.
 ```sql
 SELECT 
@@ -71,7 +71,7 @@ ORDER BY avg_procedures DESC;
 <img src="../images/SQL_Bank/SFP2.JPG?raw=true"/>  
 
 ---
-#### 2.3 Potential Racial Disparities in Treatment
+#### 3.2 Potential Racial Disparities in Treatment
 Explore differences in the number of laboratory procedures performed across different races, revealing that there are only nominal differnces between racical demographics. 
 ```sql
 SELECT 
@@ -87,8 +87,8 @@ ORDER BY avg_num_lab_procedures DESC;
 <img src="../images/SQL_Bank/SFP4.JPG?raw=true"/>  
 
 --- 
-
-#### 2.4 Lab Procedures and Hospital Stay Length
+### 4 Correlational Analysis
+#### 4.1 Lab Procedures and Hospital Stay Length
 Investigated the relationship between the number of lab procedures and the length of hospital stays, finding a direct correlation where more procedures often meant longer stays.
 ```sql
 SELECT 
@@ -107,59 +107,22 @@ ORDER BY avg_time DESC;
 
 ---
 
-
-#### 2.5 Total Transactions by Country:
-Determine which countries have the highest number of transactions with the IDA, providing insight into which countries are most actively engaging with the World Bank in terms of the number of projects or financial interactions.
+### 5 Targeted Analysis
+#### 5.1 Efficiency of Emergency Admissions
+Explored cases where patients admitted through emergency stayed less than the average duration, which could suggest both efficient treatment and areas for review to prevent rapid readmissions.
 ```sql
-SELECT 
-  country, 
-  COUNT(*) AS total_transactions 
-FROM 
-  banking_data 
-WHERE 
-  "End of Period" = (
-    SELECT 
-      MAX("End of Period") 
-    FROM 
-      banking_data
-  ) 
-GROUP BY 
-  country 
-ORDER BY 
-  total_transactions DESC 
-LIMIT 
-  10;
-
+WITH avg_time AS (
+    SELECT AVG(time_in_hospital) AS avg_hospital_time
+    FROM health
+)
+SELECT *
+FROM health
+WHERE admission_type_id = 1
+AND time_in_hospital < (SELECT avg_hospital_time FROM avg_time);
 ```
 <img src="../images/SQL_Bank/SFP5.JPG?raw=true"/>  
-India, Bangladesh, and Pakistan are the most active, which might reflect their dynamic involvement in development projects financed by the IDA.
 
 ---
-
-#### 2.6 Maximum Amount Owed by Countries:
-Identify which countries have the highest financial obligations to the IDA. This helps understand where the most significant financial interventions might be needed and which countries are under the heaviest debt burden.
-```sql
-SELECT 
-  country, 
-  MAX("Due to IDA") AS max_owed 
-FROM 
-  banking_data 
-WHERE 
-  "End of Period" = (
-    SELECT 
-      MAX("End of Period") 
-    FROM 
-      banking_data
-  ) 
-GROUP BY 
-  country 
-ORDER BY 
-  max_owed DESC 
-LIMIT 
-  10;
-```
-<img src="../images/SQL_Bank/SFP6.JPG?raw=true"/>  
-Countries like Kenya and Nigeria top this list, highlighting their substantial financial commitments.
 
 ## Conclusion
 This analysis of the World Bank's IDA data for 2022 provided crucial insights into the financial dynamics of countries and regions interacting with international development funds:
