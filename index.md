@@ -1,6 +1,7 @@
 <div class="index-header-container">
     <h1>Welcome to My <br> Data Analytics Portfolio</h1>  
     <img src="images/background_site.png?raw=true"/>
+    <br>
     <h2>👇 Learn About My Projects 👇</h2>
 </div>
 
