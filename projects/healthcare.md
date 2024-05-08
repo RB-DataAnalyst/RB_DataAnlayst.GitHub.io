@@ -51,7 +51,7 @@ FROM
 GROUP BY length_of_stay
 ORDER BY length_of_stay;
 ```
-<img src="../images/SQL_Bank/SFP1.JPG?raw=true"/>
+<img src="../images/SQL_health/2.1.JPG?raw=true"/>
 
 This pattern is important for understanding hospital workflows and patient turnover.
 
@@ -70,7 +70,7 @@ GROUP BY medical_specialty
 HAVING count > 50 AND avg_procedures > 2.5
 ORDER BY avg_procedures DESC;
 ```
-<img src="../images/SQL_Bank/SFP2.JPG?raw=true"/>  
+<img src="../images/SQL_health/3.1.png?raw=true"/>  
 This analysis enhances understanding of procedural frequencies and aids in the hypothetical allocation of resources within educational simulations.
 
 ---
@@ -88,7 +88,7 @@ FROM
 GROUP BY race
 ORDER BY avg_num_lab_procedures DESC;
 ```
-<img src="../images/SQL_Bank/SFP4.JPG?raw=true"/>  
+<img src="../images/SQL_health/3.2.png?raw=true"/>  
 
 While the differences were nominal, ongoing monitoring and study of these trends are crucial to ensure healthcare equity and to address any emerging disparities.
 
@@ -109,7 +109,7 @@ FROM
 GROUP BY procedure_frequency
 ORDER BY avg_time DESC;
 ```
-<img src="../images/SQL_Bank/SFP3.JPG?raw=true"/>  
+<img src="../images/SQL_health/4.1.png?raw=true"/>  
 
 This relationship is analyzed to demonstrate how to detect and interpret healthcare data patterns, emphasizing the potential impact of procedural load on hospital stay durations.
 
@@ -128,7 +128,7 @@ FROM health
 WHERE admission_type_id = 1
 AND time_in_hospital < (SELECT avg_hospital_time FROM avg_time);
 ```
-<img src="../images/SQL_Bank/SFP5.JPG?raw=true"/>  
+<img src="../images/SQL_health/5.1.png?raw=true"/>  
 
 This finding prompts a discussion on patient flow and hospital efficiency, serving as a learning tool to understand how emergency admissions are handled and the implications for hospital operations.
 
