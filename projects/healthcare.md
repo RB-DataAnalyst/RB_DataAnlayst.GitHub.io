@@ -117,20 +117,30 @@ This relationship is analyzed to demonstrate how to detect and interpret healthc
 
 ### 5 Targeted Analysis
 #### 5.1 Efficiency of Emergency Admissions
-This analysis focuses on the efficiency of emergency admissions, particularly looking at cases where patients stayed less than the average duration.
+This analysis examines the efficiency of emergency admissions by focusing on the duration of hospital stays compared to the average. 
 ```sql
 WITH avg_time AS (
     SELECT AVG(time_in_hospital) AS avg_hospital_time
     FROM health
 )
-SELECT *
-FROM health
-WHERE admission_type_id = 1
-AND time_in_hospital < (SELECT avg_hospital_time FROM avg_time);
+-- Count patients staying less and more than the average duration and calculate percentages
+SELECT 
+    ROUND(100.0 * SUM(CASE
+                WHEN time_in_hospital < avg_hospital_time THEN 1
+                ELSE 0
+            END) / COUNT(*),
+            2) AS pct_below_average_stays,
+    ROUND(100.0 * SUM(CASE
+                WHEN time_in_hospital >= avg_hospital_time THEN 1
+                ELSE 0
+            END) / COUNT(*),
+            2) AS pct_above_or_equal_average_stays
+FROM
+    health,
+    avg_time;
 ```
 <img src="../images/SQL_health/5.1.png?raw=true"/>  
-
-This finding prompts a discussion on patient flow and hospital efficiency, serving as a learning tool to understand how emergency admissions are handled and the implications for hospital operations.
+This helps to understand the distribution of hospital stays but also to quantify how often emergency admissions result in shorter-than-average stays, potentially indicating efficiency in patient management and resource utilization.
 
 ---
 
