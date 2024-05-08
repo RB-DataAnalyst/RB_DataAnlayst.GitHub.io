@@ -17,102 +17,75 @@ My fascination with healthcare data's complexities and its potential to yield in
 The dataset used in this project spans ten years (1999-2008) of clinical care from 130 U.S. hospitals and integrated delivery networks, focusing on hospital admissions for patients diagnosed with diabetes. It comprises over 100,000 instances and 50 features, covering an extensive array of data points including patient demographics, the medical specialty of the admitting physician, type of admission, length of hospital stay, laboratory tests performed, medications administered, and patient outcomes like readmission rates. This comprehensive dataset is available on Kaggle, a prominent platform hosting datasets and competitions for data science and machine learning. It is [publicly accessible](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv) for analysis and educational uses, making it an excellent resource for exploring healthcare analytics.
 
 ## Analysis
-### 1. Data Inspection
-- The dataset was acquired and loaded into a table using CSVFiddle.
-- On initial inspection, it seemed there might be dupicate records. However, further investigation revealed that these were not duplicates but updates in the form of different snapshots over time.
-- To ensure the analysis reflected the most current financial situation, I used a specifc SQL sub-query to filter the data:
-```sql
-WHERE 
-  "End of Period" = (
-    SELECT 
-      MAX("End of Period") 
-    FROM 
-      banking_data
-  )
-```
+### 1. Data Preperation & Exploration
+The initial step in preparing the dataset for analysis involved loading the data into a MySQL database, which was structured into two main tables: ```demographics``` and ```health```. This organization facilitated a more efficient querying process by separating patient demographic information from their health-related data.
 
-### 2. SQL Queries
-Below are the SQL queries used in the project, each query is accompanied by its respective output image:
-
-#### 2.1 Top Borrowers and Their Amounts Due
-Identify specific borrowers (typically government bodies or ministries of finance) with the highest amounts due, providing a clearer picture of responsibility and financial management at a more granular level within the countries.
+- Next, the data types in the tables were verified. Here is an example of this query for the ```health``` table:
 ```sql
 SELECT 
-  Borrower, 
-  Country, 
-  "Due to IDA" AS due 
-FROM 
-  banking_data 
-WHERE 
-  due IS NOT NULL 
-  AND "End of Period" = (
-    SELECT 
-      MAX("End of Period") 
-    FROM 
-      banking_data
-  ) 
-ORDER BY 
-  due DESC 
-LIMIT 
-  10;
+    column_name, DATA_TYPE
+FROM
+    INFORMATION_SCHEMA.COLUMNS
+WHERE
+    table_schema = 'patient'
+    AND table_name = 'health';
+```
+
+- Data Type Adjustments: Certain columns, like num_medications in the health table, were originally imported with varchar data types. These were converted to integer types to enable numerical operations essential for analysis.
+- Handling Missing Values: The dataset contained several missing values, especially in the race and weight categories. For simplicity and to maintain data integrity, entries with missing race data were retained and categorized under a new label '?', allowing for an inclusive analysis of demographic impacts without data loss.
+
+
+
+### 2. Descriptive Queries
+Below are the SQL queries used to examine time distributions, medical specialities, and potential disparities in treatment along with its respective output:
+
+#### 2.1 Distribution of Hospital Stays
+Analyzed the distribution of the length of hospital stays, identifying a predominance of short-term stays (1-4 days), which highlights the operational dynamics and potential areas for improving patient care efficiency.
+```sql
+SELECT 
+    ROUND(time_in_hospital, 1) AS length_of_stay,
+    COUNT(*) AS count,
+    RPAD('', COUNT(*) / 100, '*') AS bar
+FROM
+    health
+GROUP BY length_of_stay
+ORDER BY length_of_stay;
 ```
 <img src="../images/SQL_Bank/SFP1.JPG?raw=true"/>
-Governmental bodies like The National Treasury and Planning of Kenya and the Ministry of Finance in Ethiopia and India are key players, reflecting their central roles in managing these countries' external
-debts.
 
 ---
 
-#### 2.2 Total Amount Due by Region
-Understand which regions have the largest total financial commitments due, indicating where the IDA’s financial resources are most heavily allocated.
+#### 2.2 Medical Specialties and Procedures
+Analyzed which medical specialties conducted more procedures on average, pointing to specific fields like thoracic and cardiovascular surgery as high-resource areas.
 ```sql
 SELECT 
-  region, 
-  ROUND(
-    SUM("Due to IDA"), 
-    2
-  ) AS total_due 
-FROM 
-  banking_data 
-WHERE 
-  "End of Period" = (
-    SELECT 
-      MAX("End of Period") 
-    FROM 
-      banking_data
-  ) 
-GROUP BY 
-  region 
-ORDER BY 
-  total_due DESC;
+    medical_specialty,
+    ROUND(AVG(num_procedures), 1) AS avg_procedures,
+    COUNT(*) AS count
+FROM
+    health
+GROUP BY medical_specialty
+HAVING count > 50 AND avg_procedures > 2.5
+ORDER BY avg_procedures DESC;
 ```
 <img src="../images/SQL_Bank/SFP2.JPG?raw=true"/>  
-South Asia and Eastern and Southern Africa top this list, highlighting significant financial needs and engagements in these regions.
 
 ---
 
-#### 2.3 Average Service Charge Rates by Region
-Explore and compare the average service charge rates across different World Bank regions, which can indicate the cost of borrowing and the financial terms set by the IDA across different geographies.
+#### 2.3 Lab Procedures and Hospital Stay Length
+Investigated the relationship between the number of lab procedures and the length of hospital stays, finding a direct correlation where more procedures often meant longer stays.
 ```sql
 SELECT 
-  region, 
-  AVG("Service Charge Rate") AS avg_rate 
-FROM 
-  banking_data 
-WHERE 
-  "End of Period" = (
-    SELECT 
-      MAX("End of Period") 
-    FROM 
-      banking_data
-  ) 
-GROUP BY 
-  region 
-ORDER BY 
-  avg_rate DESC;
-
+    race,
+    ROUND(AVG(num_lab_procedures), 1) AS avg_num_lab_procedures
+FROM
+    health AS h
+    JOIN
+    demographics AS d ON h.patient_nbr = d.patient_nbr
+GROUP BY race
+ORDER BY avg_num_lab_procedures DESC;
 ```
 <img src="../images/SQL_Bank/SFP3.JPG?raw=true"/>  
-Regions like Europe and Central Asia exhibit higher rates, potentially pointing to varying economic conditions or risk assessments by the IDA.
 
 ---
 
