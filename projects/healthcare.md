@@ -70,7 +70,7 @@ HAVING count > 50 AND avg_procedures > 2.5
 ORDER BY avg_procedures DESC;
 ```
 <img src="../images/SQL_health/3.1.png?raw=true"/>  
-This analysis enhances understanding of procedural frequencies and aids in the hypothetical allocation of resources within educational simulations.
+This analysis enhances understanding of procedural frequencies and aids in the hypothetical allocation of resources.
 
 ---
 
