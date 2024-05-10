@@ -221,7 +221,7 @@ ggplot(elbowdf, mapping = aes(x = k_values, y = wss_values)) +
   scale_x_continuous(breaks = seq(1, 10, 1))
 ```
 
-![](Customer-Cluster_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+![](../images/cluster/unnamed-chunk-8-1.png)<!-- -->
 
 ### Elbow Plot Interpretation
 
@@ -806,7 +806,7 @@ ggplot(quantdfk4, aes(x = Account.Length..in.months.)) +
   theme(strip.text.x = element_text(face = "bold"))
 ```
 
-![](Customer-Cluster_files/figure-gfm/unnamed-chunk-18-1.png)<!-- -->
+![](../images/cluster/unnamed-chunk-18-1.png)<!-- -->
 
 The scatterplot visualizes the relationship between local minutes and
 international minutes for customers across different clusters within
@@ -841,4 +841,4 @@ ggplot(quantdfk4, aes(x = Local.Mins, y = Intl.Mins)) +
         legend.position = "none")
 ```
 
-![](Customer-Cluster_files/figure-gfm/unnamed-chunk-19-1.png)<!-- -->
+![](../images/cluster/unnamed-chunk-19-1.png)<!-- -->
