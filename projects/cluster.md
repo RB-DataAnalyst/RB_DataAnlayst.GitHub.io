@@ -1,7 +1,5 @@
 Cluster Analysis in R
 ================
-Roberto Busby
-February 07, 2024
 
 - [SkyLink Communications Customer Cluster
   Analysis](#skylink-communications-customer-cluster-analysis)
