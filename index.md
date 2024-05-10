@@ -7,7 +7,7 @@
 
 <!-- Project 5: R Clusters-->
 <div class="project-card">
-    <h3><a href="/projects/cluster">🔍 Customer Segmentation through Cluster Analysis</a></h3>
+    <h3><a href="/projects/cluster.md" target="_blank">🔗 Customer Segmentation through Cluster Analysis</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
         <div class="project-skills">
@@ -17,7 +17,7 @@
             <span class="project-skill-tag">K-means clustering</span>
         </div>
     </div>
-    <a href="/projects/cluster">
+    <a href="/projects/cluster.md" target="_blank">
         <img src="images/cluster/cluster.png?raw=true" alt="Project Image"/>
     </a>
     <p>Employed cluster analysis to dissect SkyLink Communications' diverse customer base into distinct segments, leveraging data on customer tenure, service offerings, and international and data service charges. Key insights include:</p>
