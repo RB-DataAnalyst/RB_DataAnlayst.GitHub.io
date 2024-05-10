@@ -7,7 +7,7 @@
 
 <!-- Project 5: R Clusters-->
 <div class="project-card">
-    <h3><a href="https://github.com/RB-DataAnalyst/rb-dataanalyst.github.io/blob/master/projects/cluster.md" target="_blank">🔗 Customer Segmentation through Cluster Analysis</a></h3>
+    <h3><a href="https://github.com/RB-DataAnalyst/rb-dataanalyst.github.io/blob/master/projects/cluster.md" target="_blank">🔗 Customer Segmentation with Cluster Analysis</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
         <div class="project-skills">
