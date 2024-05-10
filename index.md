@@ -5,6 +5,30 @@
     <h2>👇 Learn About My Projects 👇</h2>
 </div>
 
+<!-- Project 5: R Clusters-->
+<div class="project-card">
+    <h3><a href="/projects/cluster">🔍 Customer Segmentation through Cluster Analysis</a></h3>
+    <div class="project-skills-container">
+        <span class="project-skills-label"></span>
+        <div class="project-skills">
+            <span class="project-skill-tag">R</span>
+            <span class="project-skill-tag">Statistical Analysis</span>
+            <span class="project-skill-tag">ggplot2</span> 
+            <span class="project-skill-tag">K-means clustering</span>
+        </div>
+    </div>
+    <a href="/projects/cluster">
+        <img src="images/cluster/cluster.png?raw=true" alt="Project Image"/>
+    </a>
+    <p>Employed cluster analysis to dissect SkyLink Communications' diverse customer base into distinct segments, leveraging data on customer tenure, service offerings, and international and data service charges. Key insights include:</p>
+    <ul>
+        <li>Global Communicators and Local Loyalists tend to have longer tenures, indicating high engagement and potential for targeted loyalty programs.</li>
+        <li>Emerging Users show shorter tenure lengths, suggesting they are newer customers who may benefit from introductory offers to boost retention.</li>
+        <li>Data Enthusiasts have varied tenure lengths, highlighting a diverse group that requires personalized communication strategies.</li>
+    </ul>
+</div>
+
+
 <!-- Project 4: SQL Healthcare-->
 <div class="project-card">
     <h3><a href="/projects/healthcare">🔍 Exploratory Data Analysis of Hospital Care for Diabetic Patients</a></h3>
@@ -20,7 +44,7 @@
     <a href="/projects/healthcare">
         <img src="images/SQL_health/SQL_health.png?raw=true" alt="Project Image"/>
     </a>
-    <p>In this project, I dive into a comprehensive dataset spanning ten years of clinical care for diabetic patients across 130 US hospitals. Key insights include:</p>
+    <p>Dove into a comprehensive dataset spanning ten years of clinical care for diabetic patients across 130 US hospitals. Key insights include:</p>
     <ul>
         <li>Most diabetic patients have short hospital stays, typically ranging from 1 to 4 days, highlighting efficient initial treatments but raising questions about follow-up care.</li>
         <li>Medical specialties such as thoracic and cardiovascular surgery frequently require a higher number of procedures, pointing to areas of resource-intensive care.</li>
@@ -42,7 +66,7 @@
     <a href="/projects/bank">
         <img src="images/SQL_Bank/SQLproject1.png?raw=true" alt="Project Image"/>
     </a>
-    <p>In this project, I analyze the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:</p>
+    <p>Analyzed the World Bank's IDA Statement of Credits and Grants data for 2022. Highlights include:</p>
     <ul>
         <li>Detected significant financial obligations in several countries, suggesting targeted areas for potential economic assistance.</li>
         <li>Observed high transaction volumes in specific regions, indicating robust engagement with World Bank development initiatives.</li>
@@ -65,7 +89,7 @@
     <a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/" target="_blank">
         <img src="images/tableau/tableau-education.png?raw=true" alt="Project Image"/>
     </a>
-    <p>In this case study, I analyzed the State of Massachusetts education data. The main focuses were:</p>
+    <p>Analyzed the State of Massachusetts education data. The main focuses were:</p>
     <ol>
         <li>What schools are struggling with graduation rates the most?</li>
         <li>How does class size affect college admissions?</li>
