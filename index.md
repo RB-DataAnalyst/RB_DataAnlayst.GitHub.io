@@ -6,7 +6,7 @@
 </div>
 
 <!-- Project 5: R Clusters-->
-<div class="project-card">
+<div class="project-card" id="r-clusters">
     <h3><a href="https://github.com/RB-DataAnalyst/rb-dataanalyst.github.io/blob/master/projects/cluster.md" target="_blank">🔗 Customer Segmentation with Cluster Analysis</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
@@ -30,7 +30,7 @@
 
 
 <!-- Project 4: SQL Healthcare-->
-<div class="project-card">
+<div class="project-card" id="sql-healthcare">
     <h3><a href="/projects/healthcare">🔍 Exploratory Data Analysis of Hospital Care for Diabetic Patients</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
@@ -53,7 +53,7 @@
 </div>
 
 <!-- Project 3: SQL Finance -->
-<div class="project-card">
+<div class="project-card" id="sql-finance">
     <h3><a href="/projects/bank">🔍 2022 World Bank IDA Credits and Grants</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
@@ -75,7 +75,7 @@
 </div>
 
 <!-- Project 2: Tableau Education -->
-<div class="project-card">
+<div class="project-card" id="tableau-education">
     <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/" target="_blank">🔗 A Journey Through Massachusetts Education Metrics</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
@@ -98,7 +98,7 @@
 </div>
 
 <!-- Project 1: Excel Food Delivery -->
-<div class="project-card">
+<div class="project-card"id="excel">
     <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/" target="_blank">🔗 The Role of Analytics in Food Delivery Success 
     </a></h3>
     <div class="project-skills-container">
