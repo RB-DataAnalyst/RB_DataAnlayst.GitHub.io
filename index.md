@@ -98,7 +98,7 @@
 </div>
 
 <!-- Project 1: Excel Food Delivery -->
-<div class="project-card"id="excel">
+<div class="project-card" id="excel">
     <h3><a href="https://www.linkedin.com/pulse/role-analytics-food-delivery-success-roberto-busby-foasc/" target="_blank">🔗 The Role of Analytics in Food Delivery Success 
     </a></h3>
     <div class="project-skills-container">
