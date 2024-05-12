@@ -128,7 +128,7 @@
             <span class="project-skill-tag">Data Management</span>
         </div>
     </div>
-    <a href="projects/GAS/README_GAS.md">
+    <a href="projects/GAS/README_GAS">
         <img src="images/GoogleAppsScripts/GoogleAppsScripts.png?raw=true" alt="Project Image"/>
     </a>
     <p>This Google Apps Script project seamlessly integrates Airtable data into Google Sheets, enabling users to manage API tokens and settings through a user-friendly interface, simplifying data import processes directly within their spreadsheets.</p>
