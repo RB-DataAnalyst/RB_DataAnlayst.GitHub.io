@@ -119,7 +119,7 @@
 
 <!-- Project 0: Google Apps Scripts -->
 <div class="project-card" id="gas">
-    <h3><a href="projects/GAS/README_GAS.md">🔍 Google Sheets Airtable Integration</a></h3>
+    <h3><a href="projects/GAS/README_GAS">🔍 Google Sheets Airtable Integration</a></h3>
     <div class="project-skills-container">
         <span class="project-skills-label"></span>
         <div class="project-skills">
