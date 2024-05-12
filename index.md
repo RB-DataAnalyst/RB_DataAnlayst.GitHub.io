@@ -126,7 +126,6 @@
             <span class="project-skill-tag">Google Apps Script</span>
             <span class="project-skill-tag">API Integration</span>
             <span class="project-skill-tag">Data Management</span>
-            <span class="project-skill-tag">UI Design</span> 
         </div>
     </div>
     <a href="projects/GAS/README_GAS.md">
