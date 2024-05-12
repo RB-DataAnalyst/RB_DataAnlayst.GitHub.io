@@ -2,7 +2,7 @@
 
 This project consists of a series of Google Apps Scripts that enhance the functionality of Google Sheets by integrating with the Airtable API. It allows users to interact directly with Airtable data, manage API tokens securely, and dynamically configure script settings within Google Sheets.
 
-**[Back to Projects](../index.md)**  
+**[Back to Projects](../../index.md)**  
 ## Scripts Overview
 
 ### Settings Management
@@ -53,4 +53,4 @@ Token management is handled through Google Apps Script's user properties, ensuri
 
 For more information on setting up and using this integration, refer to the detailed documentation within each script file. Each function is well-documented with comments explaining the purpose and usage.
 
-**[Back to Projects](../index.md)**  
+**[Back to Projects](../../index.md)**  
