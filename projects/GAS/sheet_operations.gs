@@ -26,7 +26,7 @@ function importRecords() {
   } while (offset);
 
   console.log("Total records fetched:", allRecords.length);
-  outputToSheet(allRecords);  // Pass settings as a parameter
+  outputToSheet(allRecords, settings);  // Pass settings as a parameter
 }
 
 /**
