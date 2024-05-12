@@ -9,7 +9,7 @@ This project consists of a series of Google Apps Scripts that enhance the functi
 - **settings.gs**: Manages script settings stored within a Google Sheet, allowing non-technical users to adjust script parameters such as API keys and database identifiers directly from a dedicated settings sheet.
 
 ### Airtable API Integration
-- **airtable_api.gs**: Provides a wrapper for Airtable API, facilitating easy data retrieval and management. It supports authentication, pagination, and handling of various data types.
+- **airtable_api.gs** & **api_wrapper.gs**: Provides a wrapper for Airtable API, facilitating easy data retrieval and management. It supports authentication, pagination, and handling of various data types.
 
 ### UI Components & Token Management
 - **ui.gs**: Implements a custom menu in Google Sheets, offering options to import records from Airtable, and set or clear the API token. Allows users to securely set and clear API tokens stored in user properties, ensuring that sensitive data is not exposed.
