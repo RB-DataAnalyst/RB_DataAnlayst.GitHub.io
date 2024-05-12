@@ -9,7 +9,7 @@ function importRecords() {
 
   const baseId = settings.getSetting("baseID");
   const tableName = settings.getSetting("TableName");
-  const viewName = settings.getSetting("ViewName");
+  const viewName = settings.getSetting("ViewName");
 
   const sdk = airtableSDK();
   let allRecords = [];
@@ -20,9 +20,9 @@ function importRecords() {
     if (offset) {
       params.offset = offset;
     }
-    if (viewName) {
-      params.view = viewName;
-    }
+    if (viewName) {
+      params.view = viewName;
+    }
     console.log("Fetching records with params:", params);
     const response = sdk.getRecords(params);
     allRecords = allRecords.concat(response.records);
@@ -68,3 +68,4 @@ function outputToSheet(records, settings) {
 
   console.log("Data written to the sheet");
 }
+
