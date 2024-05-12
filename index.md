@@ -116,3 +116,21 @@
     <p>Analyzed over 2,000 rows of customer behavioral marketing data using Google Sheets to effectively evaluate campaign success levels.</p>
     <a href="https://docs.google.com/spreadsheets/d/1JZlQOhyvpybO4J6utH-7Abzs9c-5UR9QUvtl8yphjms/edit?usp=sharing">🔗 Access the spreadsheet here.</a>
 </div>
+
+<!-- Project 0: Google Apps Scripts -->
+<div class="project-card" id="gas">
+    <h3><a href="projects/GAS/README_GAS.md">🔍 Google Sheets Airtable Integration</a></h3>
+    <div class="project-skills-container">
+        <span class="project-skills-label"></span>
+        <div class="project-skills">
+            <span class="project-skill-tag">Google Apps Script</span>
+            <span class="project-skill-tag">API Integration</span>
+            <span class="project-skill-tag">Data Management</span>
+            <span class="project-skill-tag">UI Design</span> 
+        </div>
+    </div>
+    <a href="projects/GAS/README_GAS.md">
+        <img src="images/GoogleAppsScripts/GoogleAppsScripts.png?raw=true" alt="Project Image"/>
+    </a>
+    <p>This Google Apps Script project seamlessly integrates Airtable data into Google Sheets, enabling users to manage API tokens and settings through a user-friendly interface, simplifying data import processes directly within their spreadsheets.</p>
+</div>
