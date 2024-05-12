@@ -1,6 +1,6 @@
 # Google Sheets Airtable Integration
 
-This project consists of a series of Google Apps Scripts that enhance the functionality of Google Sheets by integrating with Airtable API. It allows users to interact directly with Airtable data, manage API tokens securely, and dynamically configure script settings through a custom UI within Google Sheets.
+This project consists of a series of Google Apps Scripts that enhance the functionality of Google Sheets by integrating with the Airtable API. It allows users to interact directly with Airtable data, manage API tokens securely, and dynamically configure script settings within Google Sheets.
 
 ## Scripts Overview
 
