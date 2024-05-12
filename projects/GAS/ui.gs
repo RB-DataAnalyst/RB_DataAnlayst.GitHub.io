@@ -6,7 +6,9 @@
 function onOpen() {
   const ui = SpreadsheetApp.getUi();
   const menu = ui.createMenu('Airtable API');
+
   menu.addItem('Import Records', 'importRecords');
+  menu.addItem('Create Settings Sheet', 'generateSettings');
 
   // Creating a submenu for token settings
   const tokenMenu = ui.createMenu('Token Settings');
