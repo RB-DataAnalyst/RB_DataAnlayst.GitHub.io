@@ -15,7 +15,7 @@ function importRecords() {
   let offset;
 
   do {
-    const params = { baseId, tableName, offset };
+    const params = { baseId, tableName};
     if (offset) {
       params.offset = offset;
     }
