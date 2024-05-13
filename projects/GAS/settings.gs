@@ -39,7 +39,7 @@ class Settings {
       this.settingsSheet.getRange('1:1').setFontWeight('bold');
       this.settingsSheet.appendRow(['baseID', '', 'REQUIRED: Enter the Airtable Base ID from the Developer API documentation or URL.']);
       this.settingsSheet.appendRow(['TableName', '', 'REQUIRED: Enter the exact, case-sensitive name or ID of the Airtable table from the Developer API documentation or URL.']);
-      this.settingsSheet.appendRow(['ViewName', '', 'Optional: Enter the Airtable View ID from the URL.']);
+      this.settingsSheet.appendRow(['ViewId', '', 'Optional: Enter the Airtable View ID from the URL.']);
       this.settingsSheet.appendRow(['DestinationSheet', '', 'REQUIRED: Specify the exact, case-sensitive name of the Google Sheets tab where data will be imported. Existing contents will be cleared!']);
     }
   }
