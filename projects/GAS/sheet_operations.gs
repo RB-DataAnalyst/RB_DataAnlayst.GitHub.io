@@ -9,7 +9,7 @@ function importRecords() {
 
   const baseId = settings.getSetting("baseID");
   const tableName = settings.getSetting("TableName");
-  const viewName = settings.getSetting("ViewName");
+  const viewId = settings.getSetting("ViewId");
 
   const sdk = airtableSDK();
   let allRecords = [];
@@ -21,7 +21,7 @@ function importRecords() {
       params.offset = offset;
     }
     if (viewName) {
-      params.view = viewName;
+      params.view = viewId;
     }
     console.log("Fetching records with params:", params);
     const response = sdk.getRecords(params);
