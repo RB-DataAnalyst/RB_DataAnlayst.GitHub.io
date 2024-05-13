@@ -44,6 +44,9 @@ Once the token is set:
 
 Make sure to handle authorization prompts from Google to allow the script to run and access the necessary services.
 
+## Integration Behavior with Complex Fields
+- **Linked Records:** This integration retrieves the Airtable Record ID of linked records instead of their display values. This approach facilitates more straightforward reporting and data management within Google Sheets, as Record IDs provide consistent references for data integration and updates.
+- **Array Fields:** Fields in Airtable that contain an array of records may be ignored or not returned by this integration. This simplifies the data structure for reporting purposes, as arrays can complicate data aggregation and visualization in Google Sheets.
 
 ## Security
 
