@@ -6,16 +6,16 @@ This project consists of a series of Google Apps Scripts that enhance the functi
 ## Scripts Overview
 
 ### Settings Management
-- [**settings.gs**](settings.gs): Manages script settings stored within a Google Sheet, allowing non-technical users to adjust script parameters such as API keys and database identifiers directly from a dedicated settings sheet.
+- [**settings.gs**](settings): Manages script settings stored within a Google Sheet, allowing non-technical users to adjust script parameters such as API keys and database identifiers directly from a dedicated settings sheet.
 
 ### Airtable API Integration
-- [**airtable_api.gs**](airtable_api.gs) & [**api_wrapper.gs**](api_wrapper.gs): Provides a wrapper for Airtable API, facilitating easy data retrieval and management. It supports authentication, pagination, and handling of various data types.
+- [**airtable_api.gs**](airtable_api) & [**api_wrapper.gs**](api_wrapper): Provides a wrapper for Airtable API, facilitating easy data retrieval and management. It supports authentication, pagination, and handling of various data types.
 
 ### UI Components & Token Management
-- [**ui.gs**](ui.gs): Implements a custom menu in Google Sheets, offering options to import records from Airtable, and set or clear the API token. Allows users to securely set and clear API tokens stored in user properties, ensuring that sensitive data is not exposed.
+- [**ui.gs**](ui): Implements a custom menu in Google Sheets, offering options to import records from Airtable, and set or clear the API token. Allows users to securely set and clear API tokens stored in user properties, ensuring that sensitive data is not exposed.
   
 ### Data Management
-- [**sheet_operations.gs**](sheet_operations.gs): Utilizes the Airtable SDK to fetch data from specified tables and views in Airtable, handling pagination and efficiently importing data into the active Google Sheet. Handles the output of fetched data into Google Sheets, including dynamic
+- [**sheet_operations.gs**](sheet_operations): Utilizes the Airtable SDK to fetch data from specified tables and views in Airtable, handling pagination and efficiently importing data into the active Google Sheet. Handles the output of fetched data into Google Sheets, including dynamic
  column header creation based on the data fields from Airtable and formatting of the sheet.
 
 ## Installation
