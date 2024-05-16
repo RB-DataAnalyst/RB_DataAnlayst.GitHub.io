@@ -39,7 +39,7 @@ WHERE
 Below are the SQL queries used to examine time distributions, medical specialities, and potential disparities in treatment along with its respective output:
 
 #### 2.1 Distribution of Hospital Stays
-Analyzed the distribution of the length of hospital stays, identifying a predominance of short-term stays (1-4 days), which highlights the operational dynamics and potential areas for improving patient care efficiency.
+Analyzed the distribution of the length of hospital stays by simulating a histogram, identifying a predominance of short-term stays (1-4 days), which highlights the operational dynamics and potential areas for improving patient care efficiency.
 ```sql
 SELECT 
     ROUND(time_in_hospital, 1) AS length_of_stay,
