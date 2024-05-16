@@ -21,7 +21,7 @@ This project consists of a series of Google Apps Scripts that enhance the functi
 ## Installation
 1. Open your Google Sheets document.
 2. Go to Extensions -> Apps Script.
-3. Copy and paste the [script files](/projects/GAS) into the script editor.
+3. Copy and paste the [script files](../GAS) into the script editor.
 4. Save and refresh the Google Sheets document to see the custom menu.
 
 ## Setup and Authorization
