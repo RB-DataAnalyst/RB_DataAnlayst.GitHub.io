@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project, we used cluster analysis to segment the diverse customer base of SkyLink Communications into distinct groups. This segmentation helps us understand customer behaviors and preferences better, enabling us to tailor our marketing strategies more effectively. The analysis focused on key customer attributes such as tenure, service usage, and charges.
+In this project, I used cluster analysis to segment the diverse customer base of SkyLink Communications into distinct groups. This segmentation helps us understand customer behaviors and preferences better, enabling us to tailor our marketing strategies more effectively. The analysis focused on key customer attributes such as tenure, service usage, and charges.
 
 ## Key Steps and Insights
 
@@ -16,11 +16,11 @@ I began by preparing and exploring the data, focusing on key continuous variable
 
 ### Data Normalization
 
-To ensure a fair comparison, we normalized the data, making sure each variable equally contributed to the clustering process.
+To ensure a fair comparison, I normalized the data, making sure each variable equally contributed to the clustering process.
 
 ### Determining the Optimal Number of Clusters
 
-Using the Elbow Method, we determined that four clusters were optimal for our data. This method helped us identify the point where adding more clusters didn’t significantly improve the model.
+Using the Elbow Method, I determined that four clusters Ire optimal for our data. This method helped us identify the point where adding more clusters didn’t significantly improve the model.
 
 ### K-Means Clustering
 
@@ -58,7 +58,7 @@ I performed k-means clustering and identified four distinct customer segments:
 #### 3. Emerging Users
 
 **Characteristics**:
-- Newer customers
+- NeIr customers
 - Minimal service usage
 
 **Marketing Strategies**:
@@ -88,7 +88,7 @@ I visualized the distribution of customer tenure across clusters. The red dashed
 
 ### Local vs. International Minutes by Cluster
 
-The scatter plot below shows the relationship between local and international minutes for each cluster.
+The scatter plot below shows the relationship betIen local and international minutes for each cluster.
 
 - **Global Communicators**: Strong inclination towards international communication.
 - **Local Loyalists**: Predominantly engage in local communication.
