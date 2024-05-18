@@ -7,7 +7,7 @@ I chose this project to leverage my skills in Google Apps Script and Airtable's 
 - **Improved Workflow Efficiency:** The integration significantly reduced the time and effort required to manage and analyze data, making it accessible directly within Google Sheets.
 - **Enhanced Data Accessibility:** Non-technical users were able to interact with and manage Airtable data without needing in-depth knowledge of APIs or scripting.
 - **Secure Data Handling:** The project ensured secure management of API tokens, protecting sensitive data while maintaining ease of use.
-- **Automated Bulk Record Retrieval:** The integration automatically retrieves records in bulk from Airtable, simplifying data management and facilitating the development of reports directly in Google Sheets or by connecting the sheet to a BI tool.
+- **Automated Bulk Record Retrieval:** The integration can be configured to automatically retrieve records in bulk from Airtable, simplifying data management and facilitating the development of reports directly in Google Sheets or by connecting the sheet to a BI tool.
 
 
 
