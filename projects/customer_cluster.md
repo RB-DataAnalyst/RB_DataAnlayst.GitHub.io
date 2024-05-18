@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project, I used cluster analysis to segment the diverse customer base of SkyLink Communications into distinct groups. This segmentation helps us understand customer behaviors and preferences better, enabling us to tailor our marketing strategies more effectively. The analysis focused on key customer attributes such as tenure, service usage, and charges.
+In this project, I used cluster analysis to segment the diverse customer base of  a fictional telecommunications company, SkyLink Communications, into distinct groups. This segmentation helps us understand customer behaviors and preferences better, enabling us to tailor our marketing strategies more effectively. The analysis focused on key customer attributes such as tenure, service usage, and charges.
 
 ## Key Steps and Insights
 
