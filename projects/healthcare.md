@@ -9,8 +9,6 @@
 - [Source](#source)
 - [Analysis](#analysis)
   - [1. Data Preparation & Exploration](#1-data-preparation--exploration)
-    - [Data Type Adjustments](#data-type-adjustments)
-    - [Handling Missing Values](#handling-missing-values)
   - [2. Descriptive Queries](#2-descriptive-queries)
     - [2.1 Distribution of Hospital Stays](#21-distribution-of-hospital-stays)
   - [3. Comparative Analysis](#3-comparative-analysis)
