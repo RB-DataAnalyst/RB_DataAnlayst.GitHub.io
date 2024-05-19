@@ -1,5 +1,5 @@
 # SkyLink Communications Customer Cluster Analysis
-
+**[Back to Projects](../index.md)** 
 ## Overview
 
 For subscription-based businesses like telecom companies, reducing customer churn is a top priority. In this project, I used cluster analysis to segment the diverse customer base of SkyLink Communications, a fictional telecommunications company, into distinct groups. This segmentation helps me understand customer behaviors and preferences better, enabling me to tailor marketing strategies more effectively. The analysis focused on key customer attributes such as tenure, service usage, and charges to investigate churn rates.
@@ -78,3 +78,5 @@ Through this project, I learned:
 - The insights gained from visualizing data, which can highlight patterns and trends that may not be immediately apparent from raw data alone.
 
 See [cluster.md](./cluster.md) for the detailed analysis.
+
+**[Back to Projects](../index.md)** 
