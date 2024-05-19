@@ -34,7 +34,7 @@ My fascination with healthcare data's complexities and its potential to yield in
 The dataset used in this project spans ten years (1999-2008) of clinical care from 130 U.S. hospitals and integrated delivery networks, focusing on hospital admissions for patients diagnosed with diabetes. It comprises over 100,000 instances and 50 features, covering an extensive array of data points including patient demographics, the medical specialty of the admitting physician, type of admission, length of hospital stay, laboratory tests performed, medications administered, and patient outcomes like readmission rates. This comprehensive dataset is available on Kaggle, a prominent platform hosting datasets and competitions for data science and machine learning. It is [publicly accessible](https://www.kaggle.com/code/iabhishekofficial/prediction-on-hospital-readmission/data?select=diabetic_data.csv) for analysis and educational uses, making it an excellent resource for exploring healthcare analytics.
 
 ## Analysis
-### 1. Data Preperation & Exploration
+### 1. Data Preparation & Exploration
 The initial step in preparing the dataset for analysis involved loading the data into a MySQL database, which was structured into two main tables: ```demographics``` and ```health```. This organization facilitated a more efficient querying process by separating patient demographic information from their health-related data.
 
 - Next, the data types in the tables were verified. Here is an example of this query for the ```health``` table:
