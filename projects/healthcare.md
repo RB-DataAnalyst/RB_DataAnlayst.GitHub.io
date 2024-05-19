@@ -7,9 +7,6 @@
 ## Table of Contents
 - [Introduction](#introduction)
 - [Key Findings](#key-findings)
-  - [Length of Hospital Stay Trends](#length-of-hospital-stay-trends)
-  - [Variation in Treatment by Medical Specialty](#variation-in-treatment-by-medical-specialty)
-  - [Correlation Between Lab Procedures and Hospital Stay](#correlation-between-lab-procedures-and-hospital-stay)
 - [Source](#source)
 - [Analysis](#analysis)
   - [1. Data Preparation & Exploration](#1-data-preparation--exploration)
