@@ -1,5 +1,4 @@
 # SQL at the Helm: Charting Financial Waters with World Bank Data
----
 
 >**[Back to Projects](../index.md)**  
 
