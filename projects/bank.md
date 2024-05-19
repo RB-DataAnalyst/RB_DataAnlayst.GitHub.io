@@ -1,8 +1,22 @@
 # SQL at the Helm: Charting Financial Waters with World Bank Data
 ---
 
-**[Back to Projects](../index.md)**  
+>**[Back to Projects](../index.md)**  
 
+## Table of Contents
+- [Introduction](#introduction)
+- [Key Findings](#key-findings)
+- [Source](#source)
+- [Analysis](#analysis)
+  - [Data Inspection](#1-data-inspection)
+  - [SQL Queries](#2-sql-queries)
+    - [Top Borrowers and Their Amounts Due](#21-top-borrowers-and-their-amounts-due)
+    - [Total Amount Due by Region](#22-total-amount-due-by-region)
+    - [Average Service Charge Rates by Region](#23-average-service-charge-rates-by-region)
+    - [Total Transactions Overall](#24-total-transactions-overall)
+    - [Total Transactions by Country](#25-total-transactions-by-country)
+    - [Maximum Amount Owed by Countries](#26-maximum-amount-owed-by-countries)
+- [Conclusion](#conclusion)
 
 ## Introduction
 With a foundation in accounting and an interest in financial datasets, I was drawn to the World Bank's data due to its breadth and complexity. The objective of this analysis is to navigate through this extensive dataset to unearth insightful financial patterns, assess the latest status of loans, and calculate obligations by various global borrowers using SQL queries.
@@ -206,4 +220,4 @@ The analysis also revealed differences in service charge rates across regions, w
 
 SQL's capability to efficiently filter and analyze data over millions of records enabled me to uncover meaningful financial insights across various countries. The process highlighted the importance of data preparation and the power of SQL in extracting actionable insights from the World Bank's extensive datasets.
 
-**[Back to Projects](../index.md)** 
+>**[Back to Projects](../index.md)** 
