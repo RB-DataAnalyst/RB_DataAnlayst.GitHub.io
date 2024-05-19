@@ -43,10 +43,26 @@ I began by preparing and exploring the data, focusing on key continuous variable
 ### Data Normalization
 
 To ensure a fair comparison, I normalized the data, making sure each variable equally contributed to the clustering process.
+``` r
+#normalize each variable
+quant_vars_n <- scale(quant_vars)
+View(quant_vars_n)
+```
 
 ### Determining the Optimal Number of Clusters
 
 Using the Elbow Method, I determined that four clusters were optimal for the data. This method helped me identify the point where adding more clusters didn’t significantly improve the model.
+
+``` r
+# Plot the elbow plot to visually determine the optimal number of clusters based on the point
+# where the decrease in the within-cluster sum of squares (WSS) begins to slow down (elbow point)
+ggplot(elbowdf, mapping = aes(x = k_values, y = wss_values)) +
+  geom_line() +
+  geom_point() +
+  scale_x_continuous(breaks = seq(1, 10, 1))
+```
+
+![](../images/cluster/unnamed-chunk-8-1.png)<!-- -->
 
 ### K-Means Clustering
 
