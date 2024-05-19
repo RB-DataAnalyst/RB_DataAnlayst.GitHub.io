@@ -77,4 +77,4 @@ Through this project, I learned:
 - How clustering can reveal distinct customer segments, each with unique characteristics and needs, allowing for targeted marketing strategies.
 - The insights gained from visualizing data, which can highlight patterns and trends that may not be immediately apparent from raw data alone.
 
-You can review [cluster.md](./cluster.md) to see the full analysis.
+See [cluster.md](./cluster.md) for the detailed analysis.
