@@ -94,4 +94,4 @@ Through this project, I learned:
 - How clustering can reveal distinct customer segments, each with unique characteristics and needs, allowing for targeted marketing strategies.
 - The insights gained from visualizing data, which can highlight patterns and trends that may not be immediately apparent from raw data alone.
 
-See [this file](https://github.com/RB-DataAnalyst/rb-dataanalyst.github.io/edit/master/projects/cluster.md) for the detailed analysis.
+See [this file](https://github.com/RB-DataAnalyst/rb-dataanalyst.github.io/blob/master/projects/cluster.md) for the detailed analysis.
