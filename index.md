@@ -19,11 +19,11 @@
     <a href="/projects/customer_cluster" target="_blank">
         <img src="images/cluster/cluster.png?raw=true" alt="Project Image"/>
     </a>
-    <p>Employed cluster analysis to dissect SkyLink Communications' diverse customer base into distinct segments, leveraging data on customer tenure, service offerings, and international and data service charges. Key insights include:</p>
+    <p>Employed cluster analysis to segment SkyLink Communications' customer base using data on tenure, service usage, and charges. Key insights include:</p>
     <ul>
-        <li>Global Communicators and Local Loyalists tend to have longer tenures, indicating high engagement and potential for targeted loyalty programs.</li>
-        <li>Emerging Users show shorter tenure lengths, suggesting they are newer customers who may benefit from introductory offers to boost retention.</li>
-        <li>Data Enthusiasts have varied tenure lengths, highlighting a diverse group that requires personalized communication strategies.</li>
+      <li><strong>Global Communicators</strong> and <strong>Local Loyalists</strong>: Longer tenures, ideal for targeted loyalty programs.</li>
+      <li><strong>Emerging Users</strong>: Shorter tenures, suitable for introductory offers to enhance retention.</li>
+      <li><strong>Data Enthusiasts</strong>: Varied tenures, requiring personalized communication strategies.</li>
     </ul>
 </div>
 
