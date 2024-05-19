@@ -3,7 +3,6 @@
 >**[Back to Projects](../index.md)**  
 
 ## Table of Contents
-## Table of Contents
 - [Introduction](#introduction)
 - [Key Findings](#key-findings)
 - [Source](#source)
@@ -162,4 +161,4 @@ This project unveiled several insights into the healthcare management of diabeti
 
 Reflecting on this project, I used my SQL knowledge to navigate the complexities of a healthcare dataset focused on diabetes care. The process involved data cleaning and preparation, including correcting data types and managing missing values, which were necessary for effective analysis. Utilizing SQL techniques like subqueries, CTEs, and complex joins deepened my understanding of real-world data applications. Engaging with healthcare data underscored the potential of data analytics in improving operational efficiencies. Overall, this experience has not only bolstered my analytical capabilities but also piqued my interest in the intersection of data science and healthcare.
 
-**[Back to Projects](../index.md)** 
+>**[Back to Projects](../index.md)** 
