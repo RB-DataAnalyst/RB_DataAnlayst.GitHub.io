@@ -3,6 +3,28 @@
 
 **[Back to Projects](../index.md)**  
 
+## Table of Contents
+## Table of Contents
+- [Introduction](#introduction)
+- [Key Findings](#key-findings)
+  - [Length of Hospital Stay Trends](#length-of-hospital-stay-trends)
+  - [Variation in Treatment by Medical Specialty](#variation-in-treatment-by-medical-specialty)
+  - [Correlation Between Lab Procedures and Hospital Stay](#correlation-between-lab-procedures-and-hospital-stay)
+- [Source](#source)
+- [Analysis](#analysis)
+  - [1. Data Preparation & Exploration](#1-data-preparation--exploration)
+    - [Data Type Adjustments](#data-type-adjustments)
+    - [Handling Missing Values](#handling-missing-values)
+  - [2. Descriptive Queries](#2-descriptive-queries)
+    - [2.1 Distribution of Hospital Stays](#21-distribution-of-hospital-stays)
+  - [3. Comparative Analysis](#3-comparative-analysis)
+    - [3.1 Medical Specialties and Procedures](#31-medical-specialties-and-procedures)
+    - [3.2 Potential Racial Disparities in Treatment](#32-potential-racial-disparities-in-treatment)
+  - [4. Correlational Analysis](#4-correlational-analysis)
+    - [4.1 Lab Procedures and Hospital Stay Length](#41-lab-procedures-and-hospital-stay-length)
+  - [5. Targeted Analysis](#5-targeted-analysis)
+    - [5.1 Efficiency of Emergency Admissions](#51-efficiency-of-emergency-admissions)
+- [Conclusion](#conclusion)
 
 ## Introduction
 My fascination with healthcare data's complexities and its potential to yield insightful observations for patient care and hospital management inspired this project. The healthcare sector, with its intricate data structures and significant impacts, provides a unique analytical challenge. This project primarily aims to practice SQL skills by using advanced techniques like joins, CASE statements, GROUP BY and HAVING clauses, and subqueries and CTEs to extract and analyze data from a comprehensive healthcare dataset. While I aim to uncover patterns that demonstrate the power of data analysis in healthcare, it is important to note that this project is purely educational and not intended to influence actual healthcare decisions.
