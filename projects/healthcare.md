@@ -1,5 +1,5 @@
 # Exploratory Data Analysis of Hospital Care for Diabetic Patients
----
+
 >**[Back to Projects](../index.md)**  
 
 ## Table of Contents
