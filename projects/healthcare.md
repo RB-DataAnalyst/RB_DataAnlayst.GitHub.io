@@ -10,14 +10,9 @@
 - [Analysis](#analysis)
   - [1. Data Preparation & Exploration](#1-data-preparation--exploration)
   - [2. Descriptive Queries](#2-descriptive-queries)
-    - [2.1 Distribution of Hospital Stays](#21-distribution-of-hospital-stays)
   - [3. Comparative Analysis](#3-comparative-analysis)
-    - [3.1 Medical Specialties and Procedures](#31-medical-specialties-and-procedures)
-    - [3.2 Potential Racial Disparities in Treatment](#32-potential-racial-disparities-in-treatment)
   - [4. Correlational Analysis](#4-correlational-analysis)
-    - [4.1 Lab Procedures and Hospital Stay Length](#41-lab-procedures-and-hospital-stay-length)
   - [5. Targeted Analysis](#5-targeted-analysis)
-    - [5.1 Efficiency of Emergency Admissions](#51-efficiency-of-emergency-admissions)
 - [Conclusion](#conclusion)
 
 ## Introduction
