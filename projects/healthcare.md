@@ -3,6 +3,7 @@
 >**[Back to Projects](../index.md)**  
 
 ## Table of Contents
+## Table of Contents
 - [Introduction](#introduction)
 - [Key Findings](#key-findings)
 - [Source](#source)
