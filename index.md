@@ -73,6 +73,29 @@
     </ul>
 </div>
 
+<!-- Project 6: Tableau NBA Analysis -->
+<div class="project-card" id="tableau-nba">
+    <h3><a href="https://www.linkedin.com/pulse/visualizing-nba-player-stats-from-2021-2022-season-roberto-busby-rd6mc/" target = "_blank">🔗 Visualizing NBA Player Stats and Key Takeaways from the 2021-2022 Season</a></h3>
+    <div class="project-skills-container">
+        <span class="project-skills-label"></span>
+        <div class="project-skills">
+            <span class="project-skill-tag">Tableau</span>
+            <span class="project-skill-tag">Data Visualization</span>
+            <span class="project-skill-tag">Exploratory Data Analysis</span>
+        </div>
+    </div>
+    <a href="https://www.linkedin.com/pulse/visualizing-nba-player-stats-from-2021-2022-season-roberto-busby-rd6mc/" target = "_blank">
+        <img src="images/tableau/Basketball.png?raw=true" alt="Project Image"/>
+    </a>
+    <p>Through exploratory visual analysis using Tableau, this project uncovers key insights into NBA player performance and team dynamics during the 2021-2022 season. The analysis provided a deeper understanding of the roles of various positions and their contributions to the game.</p>
+    <ul>
+        <li>Explored average 3-point percentages across positions and teams using a heat map.</li>
+        <li>Visualized assists vs. points with bubble charts, highlighting player roles and contributions.</li>
+        <li>Analyzed the top 3 scoring players per team using stacked horizontal bar charts.</li>
+        <li>Showcased top assist leaders by position with a tree map.</li>
+    </ul>
+</div>
+
 <!-- Project 2: Tableau Education -->
 <div class="project-card" id="tableau-education">
     <h3><a href="https://www.linkedin.com/pulse/tableau-journey-through-massachusetts-education-metrics-roberto-busby-njjrc/" target="_blank">🔗 A Journey Through Massachusetts Education Metrics</a></h3>
