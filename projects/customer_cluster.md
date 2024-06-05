@@ -18,8 +18,7 @@
   - [Reflection on the Process](#reflection-on-the-process)
     
 ## Overview
-
-For subscription-based businesses like telecom companies, reducing customer churn is a top priority. In this project, I used cluster analysis to segment the diverse customer base of SkyLink Communications, a fictional telecommunications company, into distinct groups. This segmentation helps me understand customer behaviors and preferences better, enabling me to tailor marketing strategies more effectively. The analysis focused on key customer attributes such as tenure, service usage, and charges to investigate churn rates.
+In this project, I analyzed customer data from SkyLink Communications to identify distinct customer segments using cluster analysis in R. By preparing and normalizing the data, I ensured accurate clustering results. Using the Elbow Method, I determined the optimal number of clusters, then applied the k-means algorithm to segment the customers. The analysis revealed four distinct clusters: Global Communicators, Data Enthusiasts, Emerging Users, and Local Loyalists. Each group exhibits unique behaviors and preferences, providing SkyLink Communications with valuable insights to tailor their marketing strategies and service offerings to better meet the diverse needs of their customers.
 
 ## Key Findings Summary
 
